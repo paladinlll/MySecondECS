@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPRITE>
+  <IMAGES>
+    <IMAGE path="hero_sophie.png" transp="0" />
+  </IMAGES>
+  <MODULES>
+    <MODULE id="0" x="0" y="0" w="69" h="71" desc="" />
+    <MODULE id="1" x="0" y="71" w="63" h="77" desc="" />
+    <MODULE id="2" x="0" y="148" w="63" h="77" desc="" />
+    <MODULE id="3" x="0" y="225" w="66" h="77" desc="" />
+    <MODULE id="4" x="69" y="0" w="75" h="77" desc="" />
+    <MODULE id="5" x="0" y="302" w="69" h="71" desc="" />
+    <MODULE id="6" x="0" y="373" w="63" h="77" desc="" />
+    <MODULE id="7" x="0" y="450" w="63" h="77" desc="" />
+    <MODULE id="8" x="0" y="527" w="69" h="77" desc="" />
+    <MODULE id="9" x="144" y="0" w="75" h="77" desc="" />
+    <MODULE id="a" x="0" y="604" w="63" h="77" desc="" />
+    <MODULE id="b" x="219" y="0" w="72" h="77" desc="" />
+    <MODULE id="c" x="69" y="77" w="93" h="80" desc="" />
+    <MODULE id="d" x="0" y="681" w="63" h="77" desc="" />
+    <MODULE id="e" x="0" y="758" w="66" h="77" desc="" />
+    <MODULE id="f" x="291" y="0" w="73" h="71" desc="" />
+    <MODULE id="10" x="0" y="835" w="69" h="71" desc="" />
+    <MODULE id="11" x="0" y="906" w="63" h="77" desc="" />
+    <MODULE id="12" x="69" y="157" w="54" h="84" desc="" />
+    <MODULE id="13" x="162" y="77" w="54" h="80" desc="" />
+    <MODULE id="14" x="123" y="157" w="61" h="84" desc="" />
+    <MODULE id="15" x="184" y="157" w="89" h="84" desc="" />
+    <MODULE id="16" x="273" y="157" w="89" h="84" desc="" />
+    <MODULE id="17" x="362" y="157" w="89" h="84" desc="" />
+    <MODULE id="18" x="184" y="241" w="89" h="165" desc="" />
+    <MODULE id="19" x="184" y="406" w="89" h="166" desc="" />
+    <MODULE id="1a" x="184" y="572" w="86" h="133" desc="" />
+    <MODULE id="1b" x="184" y="705" w="86" h="119" desc="" />
+    <MODULE id="1c" x="184" y="824" w="88" h="106" desc="" />
+    <MODULE id="1d" x="273" y="241" w="90" h="98" desc="" />
+    <MODULE id="1e" x="364" y="0" w="62" h="72" desc="" />
+    <MODULE id="1f" x="426" y="0" w="64" h="72" desc="" />
+    <MODULE id="20" x="490" y="0" w="68" h="72" desc="" />
+    <MODULE id="21" x="558" y="0" w="79" h="72" desc="" />
+    <MODULE id="22" x="637" y="0" w="85" h="73" desc="" />
+    <MODULE id="23" x="722" y="0" w="62" h="72" desc="" />
+    <MODULE id="24" x="784" y="0" w="64" h="72" desc="" />
+    <MODULE id="25" x="848" y="0" w="68" h="72" desc="" />
+    <MODULE id="26" x="916" y="0" w="79" h="72" desc="" />
+    <MODULE id="27" x="216" y="77" w="85" h="73" desc="" />
+    <MODULE id="28" x="301" y="77" w="51" h="72" desc="" />
+    <MODULE id="29" x="352" y="77" w="51" h="72" desc="" />
+    <MODULE id="2a" x="403" y="77" w="55" h="72" desc="" />
+    <MODULE id="2b" x="458" y="77" w="66" h="72" desc="" />
+    <MODULE id="2c" x="524" y="77" w="72" h="72" desc="" />
+    <MODULE id="2d" x="596" y="77" w="53" h="73" desc="" />
+    <MODULE id="2e" x="649" y="77" w="53" h="73" desc="" />
+    <MODULE id="2f" x="702" y="77" w="56" h="79" desc="" />
+    <MODULE id="30" x="184" y="930" w="67" h="88" desc="" />
+    <MODULE id="31" x="363" y="241" w="73" h="92" desc="" />
+    <MODULE id="32" x="758" y="77" w="54" h="73" desc="" />
+    <MODULE id="33" x="812" y="77" w="54" h="73" desc="" />
+    <MODULE id="34" x="866" y="77" w="57" h="79" desc="" />
+    <MODULE id="35" x="436" y="241" w="68" h="88" desc="" />
+    <MODULE id="36" x="504" y="241" w="74" h="92" desc="" />
+    <MODULE id="37" x="923" y="77" w="62" h="72" desc="" />
+    <MODULE id="38" x="451" y="157" w="71" h="72" desc="" />
+    <MODULE id="39" x="522" y="157" w="62" h="72" desc="" />
+    <MODULE id="3a" x="584" y="157" w="62" h="72" desc="" />
+    <MODULE id="3b" x="646" y="157" w="62" h="72" desc="" />
+    <MODULE id="3c" x="708" y="157" w="62" h="72" desc="" />
+    <MODULE id="3d" x="770" y="157" w="74" h="72" desc="" />
+    <MODULE id="3e" x="844" y="157" w="71" h="72" desc="" />
+    <MODULE id="3f" x="915" y="157" w="62" h="72" desc="" />
+    <MODULE id="40" x="578" y="241" w="74" h="72" desc="" />
+    <MODULE id="41" x="652" y="241" w="71" h="72" desc="" />
+    <MODULE id="42" x="723" y="241" w="66" h="72" desc="" />
+    <MODULE id="43" x="789" y="241" w="74" h="72" desc="" />
+    <MODULE id="44" x="69" y="241" w="54" h="72" desc="" />
+    <MODULE id="45" x="69" y="313" w="51" h="72" desc="" />
+    <MODULE id="46" x="69" y="385" w="53" h="73" desc="" />
+    <MODULE id="47" x="69" y="458" w="51" h="72" desc="" />
+    <MODULE id="48" x="863" y="241" w="66" h="75" desc="" />
+    <MODULE id="49" x="929" y="241" w="80" h="77" desc="" />
+    <MODULE id="4a" x="273" y="339" w="104" h="81" desc="" />
+    <MODULE id="4b" x="273" y="420" w="104" h="81" desc="" />
+    <MODULE id="4c" x="273" y="501" w="104" h="81" desc="" />
+    <MODULE id="4d" x="273" y="582" w="104" h="81" desc="" />
+    <MODULE id="4e" x="273" y="663" w="104" h="81" desc="" />
+    <MODULE id="4f" x="273" y="744" w="104" h="81" desc="" />
+    <MODULE id="50" x="273" y="825" w="104" h="81" desc="" />
+    <MODULE id="51" x="273" y="906" w="104" h="81" desc="" />
+    <MODULE id="52" x="377" y="339" w="104" h="81" desc="" />
+    <MODULE id="53" x="481" y="339" w="104" h="81" desc="" />
+    <MODULE id="54" x="377" y="420" w="104" h="82" desc="" />
+    <MODULE id="55" x="377" y="502" w="104" h="83" desc="" />
+    <MODULE id="56" x="377" y="585" w="104" h="100" desc="" />
+    <MODULE id="57" x="377" y="685" w="104" h="122" desc="" />
+    <MODULE id="58" x="377" y="807" w="104" h="133" desc="" />
+    <MODULE id="59" x="481" y="420" w="104" h="138" desc="" />
+    <MODULE id="5a" x="585" y="420" w="104" h="138" desc="" />
+    <MODULE id="5b" x="689" y="420" w="104" h="133" desc="" />
+    <MODULE id="5c" x="793" y="420" w="104" h="122" desc="" />
+    <MODULE id="5d" x="897" y="420" w="104" h="117" desc="" />
+    <MODULE id="5e" x="377" y="940" w="104" h="82" desc="" />
+    <MODULE id="5f" x="481" y="558" w="104" h="82" desc="" />
+    <MODULE id="60" x="585" y="339" w="80" h="78" desc="" />
+    <MODULE id="61" x="665" y="339" w="66" h="76" desc="" />
+    <MODULE id="62" x="69" y="530" w="54" h="73" desc="" />
+    <MODULE id="63" x="69" y="603" w="54" h="73" desc="" />
+    <MODULE id="64" x="731" y="339" w="62" h="72" desc="" />
+  </MODULES>
+  <FRAMES>
+    <FRAME id="1000" desc="Mage_cast0_0">
+      <FMODULE mid="0" ScaleX="1" ScaleY="1" ox="-31" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1001" desc="Mage_cast0_1">
+      <FMODULE mid="1" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1002" desc="Mage_cast0_2">
+      <FMODULE mid="2" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1003" desc="Mage_cast0_3">
+      <FMODULE mid="3" ScaleX="1" ScaleY="1" ox="-38" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1004" desc="Mage_cast0_4">
+      <FMODULE mid="4" ScaleX="1" ScaleY="1" ox="-47" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1005" desc="Mage_cast1_0">
+      <FMODULE mid="5" ScaleX="1" ScaleY="1" ox="-31" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1006" desc="Mage_cast1_1">
+      <FMODULE mid="6" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1007" desc="Mage_cast1_2">
+      <FMODULE mid="7" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1008" desc="Mage_cast1_3">
+      <FMODULE mid="8" ScaleX="1" ScaleY="1" ox="-41" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1009" desc="Mage_cast1_4">
+      <FMODULE mid="9" ScaleX="1" ScaleY="1" ox="-47" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100a" desc="Mage_cast1_5">
+      <FMODULE mid="a" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100b" desc="Mage_cast1_6">
+      <FMODULE mid="b" ScaleX="1" ScaleY="1" ox="-44" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100c" desc="Mage_cast1_7">
+      <FMODULE mid="c" ScaleX="1" ScaleY="1" ox="-65" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100d" desc="Mage_depa_0">
+      <FMODULE mid="d" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100e" desc="Mage_depa_1">
+      <FMODULE mid="e" ScaleX="1" ScaleY="1" ox="-38" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100f" desc="Mage_0">
+      <FMODULE mid="f" ScaleX="1" ScaleY="1" ox="-29" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1010" desc="Mage_ulti_0">
+      <FMODULE mid="10" ScaleX="1" ScaleY="1" ox="-31" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1011" desc="Mage_ulti_1">
+      <FMODULE mid="11" ScaleX="1" ScaleY="1" ox="-35" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1012" desc="Mage_ulti_2">
+      <FMODULE mid="12" ScaleX="1" ScaleY="1" ox="-26" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1013" desc="Mage_ulti_3">
+      <FMODULE mid="13" ScaleX="1" ScaleY="1" ox="-26" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1014" desc="Mage_ulti_4">
+      <FMODULE mid="14" ScaleX="1" ScaleY="1" ox="-33" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1015" desc="Mage_ulti_5">
+      <FMODULE mid="15" ScaleX="1" ScaleY="1" ox="-47" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1016" desc="Mage_ulti_6">
+      <FMODULE mid="16" ScaleX="1" ScaleY="1" ox="-47" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1017" desc="Mage_ulti_7">
+      <FMODULE mid="17" ScaleX="1" ScaleY="1" ox="-47" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1018" desc="Mage_ulti_8">
+      <FMODULE mid="18" ScaleX="1" ScaleY="1" ox="-47" oy="-145" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1019" desc="Mage_ulti_9">
+      <FMODULE mid="19" ScaleX="1" ScaleY="1" ox="-47" oy="-146" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101a" desc="Mage_ulti_10">
+      <FMODULE mid="1a" ScaleX="1" ScaleY="1" ox="-47" oy="-113" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101b" desc="Mage_ulti_11">
+      <FMODULE mid="1b" ScaleX="1" ScaleY="1" ox="-42" oy="-106" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101c" desc="Mage_ulti_12">
+      <FMODULE mid="1c" ScaleX="1" ScaleY="1" ox="-50" oy="-99" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101d" desc="Mage_ulti_13">
+      <FMODULE mid="1d" ScaleX="1" ScaleY="1" ox="-46" oy="-91" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101e" desc="Sophie_cast0_0">
+      <FMODULE mid="1e" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101f" desc="Sophie_cast0_1">
+      <FMODULE mid="1f" ScaleX="1" ScaleY="1" ox="-38" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1020" desc="Sophie_cast0_2">
+      <FMODULE mid="20" ScaleX="1" ScaleY="1" ox="-42" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1021" desc="Sophie_cast0_3">
+      <FMODULE mid="21" ScaleX="1" ScaleY="1" ox="-53" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1022" desc="Sophie_cast0_4">
+      <FMODULE mid="22" ScaleX="1" ScaleY="1" ox="-59" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1023" desc="Sophie_cast1_0">
+      <FMODULE mid="23" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1024" desc="Sophie_cast1_1">
+      <FMODULE mid="24" ScaleX="1" ScaleY="1" ox="-38" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1025" desc="Sophie_cast1_2">
+      <FMODULE mid="25" ScaleX="1" ScaleY="1" ox="-42" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1026" desc="Sophie_cast1_3">
+      <FMODULE mid="26" ScaleX="1" ScaleY="1" ox="-53" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1027" desc="Sophie_cast1_4">
+      <FMODULE mid="27" ScaleX="1" ScaleY="1" ox="-59" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1028" desc="Sophie_cast2_0">
+      <FMODULE mid="28" ScaleX="1" ScaleY="1" ox="-25" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1029" desc="Sophie_cast2_1">
+      <FMODULE mid="29" ScaleX="1" ScaleY="1" ox="-25" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102a" desc="Sophie_cast2_2">
+      <FMODULE mid="2a" ScaleX="1" ScaleY="1" ox="-29" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102b" desc="Sophie_cast2_3">
+      <FMODULE mid="2b" ScaleX="1" ScaleY="1" ox="-40" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102c" desc="Sophie_cast2_4">
+      <FMODULE mid="2c" ScaleX="1" ScaleY="1" ox="-46" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102d" desc="Sophie_cast3_0">
+      <FMODULE mid="2d" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102e" desc="Sophie_cast3_1">
+      <FMODULE mid="2e" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102f" desc="Sophie_cast3_2">
+      <FMODULE mid="2f" ScaleX="1" ScaleY="1" ox="-30" oy="-74" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1030" desc="Sophie_cast3_3">
+      <FMODULE mid="30" ScaleX="1" ScaleY="1" ox="-41" oy="-83" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1031" desc="Sophie_cast3_4">
+      <FMODULE mid="31" ScaleX="1" ScaleY="1" ox="-47" oy="-87" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1032" desc="Sophie_cast4_0">
+      <FMODULE mid="32" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1033" desc="Sophie_cast4_1">
+      <FMODULE mid="33" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1034" desc="Sophie_cast4_2">
+      <FMODULE mid="34" ScaleX="1" ScaleY="1" ox="-30" oy="-74" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1035" desc="Sophie_cast4_3">
+      <FMODULE mid="35" ScaleX="1" ScaleY="1" ox="-41" oy="-83" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1036" desc="Sophie_cast4_4">
+      <FMODULE mid="36" ScaleX="1" ScaleY="1" ox="-47" oy="-87" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1037" desc="Sophie_depa0_0">
+      <FMODULE mid="37" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1038" desc="Sophie_depa1_0">
+      <FMODULE mid="38" ScaleX="1" ScaleY="1" ox="-45" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1039" desc="Sophie_depa1_1">
+      <FMODULE mid="39" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103a" desc="Sophie_depa1_2">
+      <FMODULE mid="3a" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103b" desc="Sophie_depa1_3">
+      <FMODULE mid="3b" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103c" desc="Sophie_depa1_4">
+      <FMODULE mid="3c" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103d" desc="Sophie_depa1_5">
+      <FMODULE mid="3d" ScaleX="1" ScaleY="1" ox="-48" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103e" desc="Sophie_depa2_0">
+      <FMODULE mid="3e" ScaleX="1" ScaleY="1" ox="-45" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103f" desc="Sophie_depa2_1">
+      <FMODULE mid="3f" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1040" desc="Sophie_depa2_2">
+      <FMODULE mid="40" ScaleX="1" ScaleY="1" ox="-48" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1041" desc="Sophie_depa3_0">
+      <FMODULE mid="41" ScaleX="1" ScaleY="1" ox="-45" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1042" desc="Sophie_depa3_1">
+      <FMODULE mid="42" ScaleX="1" ScaleY="1" ox="-40" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1043" desc="Sophie_depa3_2">
+      <FMODULE mid="43" ScaleX="1" ScaleY="1" ox="-48" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1044" desc="Sophie_stand_0">
+      <FMODULE mid="44" ScaleX="1" ScaleY="1" ox="-28" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1045" desc="Sophie_ulti_0">
+      <FMODULE mid="45" ScaleX="1" ScaleY="1" ox="-25" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1046" desc="Sophie_ulti_1">
+      <FMODULE mid="46" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1047" desc="Sophie_ulti_2">
+      <FMODULE mid="47" ScaleX="1" ScaleY="1" ox="-25" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1048" desc="Sophie_ulti_3">
+      <FMODULE mid="48" ScaleX="1" ScaleY="1" ox="-32" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1049" desc="Sophie_ulti_4">
+      <FMODULE mid="49" ScaleX="1" ScaleY="1" ox="-39" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104a" desc="Sophie_ulti_5">
+      <FMODULE mid="4a" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104b" desc="Sophie_ulti_6">
+      <FMODULE mid="4b" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104c" desc="Sophie_ulti_7">
+      <FMODULE mid="4c" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104d" desc="Sophie_ulti_8">
+      <FMODULE mid="4d" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104e" desc="Sophie_ulti_9">
+      <FMODULE mid="4e" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104f" desc="Sophie_ulti_10">
+      <FMODULE mid="4f" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1050" desc="Sophie_ulti_11">
+      <FMODULE mid="50" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1051" desc="Sophie_ulti_12">
+      <FMODULE mid="51" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1052" desc="Sophie_ulti_13">
+      <FMODULE mid="52" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1053" desc="Sophie_ulti_14">
+      <FMODULE mid="53" ScaleX="1" ScaleY="1" ox="-51" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1054" desc="Sophie_ulti_15">
+      <FMODULE mid="54" ScaleX="1" ScaleY="1" ox="-51" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1055" desc="Sophie_ulti_16">
+      <FMODULE mid="55" ScaleX="1" ScaleY="1" ox="-51" oy="-69" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1056" desc="Sophie_ulti_17">
+      <FMODULE mid="56" ScaleX="1" ScaleY="1" ox="-51" oy="-86" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1057" desc="Sophie_ulti_18">
+      <FMODULE mid="57" ScaleX="1" ScaleY="1" ox="-51" oy="-108" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1058" desc="Sophie_ulti_19">
+      <FMODULE mid="58" ScaleX="1" ScaleY="1" ox="-51" oy="-119" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1059" desc="Sophie_ulti_20">
+      <FMODULE mid="59" ScaleX="1" ScaleY="1" ox="-51" oy="-124" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105a" desc="Sophie_ulti_21">
+      <FMODULE mid="5a" ScaleX="1" ScaleY="1" ox="-51" oy="-124" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105b" desc="Sophie_ulti_22">
+      <FMODULE mid="5b" ScaleX="1" ScaleY="1" ox="-51" oy="-119" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105c" desc="Sophie_ulti_23">
+      <FMODULE mid="5c" ScaleX="1" ScaleY="1" ox="-51" oy="-108" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105d" desc="Sophie_ulti_24">
+      <FMODULE mid="5d" ScaleX="1" ScaleY="1" ox="-51" oy="-103" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105e" desc="Sophie_ulti_25">
+      <FMODULE mid="5e" ScaleX="1" ScaleY="1" ox="-51" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105f" desc="Sophie_ulti_26">
+      <FMODULE mid="5f" ScaleX="1" ScaleY="1" ox="-51" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1060" desc="Sophie_ulti_27">
+      <FMODULE mid="60" ScaleX="1" ScaleY="1" ox="-39" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1061" desc="Sophie_ulti_28">
+      <FMODULE mid="61" ScaleX="1" ScaleY="1" ox="-32" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1062" desc="Sophie_ulti_29">
+      <FMODULE mid="62" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1063" desc="Sophie_ulti_30">
+      <FMODULE mid="63" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1064" desc="Sophie_ulti_31">
+      <FMODULE mid="64" ScaleX="1" ScaleY="1" ox="-36" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1065" desc="Sophie_ulti_32">
+      <FMODULE mid="47" ScaleX="1" ScaleY="1" ox="-25" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+  </FRAMES>
+  <ANIMATIONS>
+    <ANIMATION id="2001" desc="Mage_cast0">
+      <AFRAME fid="1000" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1001" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1002" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1003" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1004" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2002" desc="Mage_cast1">
+      <AFRAME fid="1005" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1006" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1007" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1008" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1009" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100c" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2003" desc="Mage_depa">
+      <AFRAME fid="100d" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100e" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2004" desc="Mage">
+      <AFRAME fid="100f" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2005" desc="Mage_ulti">
+      <AFRAME fid="1010" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1011" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1012" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1013" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1014" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1015" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1016" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1017" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1018" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1019" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101c" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101d" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2006" desc="Sophie_cast0">
+      <AFRAME fid="101e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1020" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1021" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1022" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2007" desc="Sophie_cast1">
+      <AFRAME fid="1023" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1024" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1025" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1026" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1027" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2008" desc="Sophie_cast2">
+      <AFRAME fid="1028" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1029" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102c" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2009" desc="Sophie_cast3">
+      <AFRAME fid="102d" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1030" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1031" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200a" desc="Sophie_cast4">
+      <AFRAME fid="1032" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1033" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1034" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1035" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1036" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200b" desc="Sophie_depa0">
+      <AFRAME fid="1037" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200c" desc="Sophie_depa1">
+      <AFRAME fid="1038" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1039" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103c" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103d" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200d" desc="Sophie_depa2">
+      <AFRAME fid="103e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1040" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200e" desc="Sophie_depa3">
+      <AFRAME fid="1041" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1042" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1043" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200f" desc="Sophie_stand">
+      <AFRAME fid="1044" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2010" desc="Sophie_ulti">
+      <AFRAME fid="1045" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1046" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1047" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1048" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1049" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104c" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104d" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1050" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1051" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1052" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1053" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1054" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1055" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1056" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1057" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1058" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1059" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105c" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105d" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1060" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1061" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1062" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1063" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1064" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1065" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+  </ANIMATIONS>
+</SPRITE>
