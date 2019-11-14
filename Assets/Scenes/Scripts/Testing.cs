@@ -34,7 +34,7 @@ public class Testing : MonoBehaviour {
         }
         var builder = new BlobBuilder(Allocator.Persistent);
         ref var root = ref builder.ConstructRoot<SpriteSheetAnimation>();
-
+        float ppu = 100;
         float texWidth = material.mainTexture.width;
         float texHeight = material.mainTexture.height;
         var modules = builder.Allocate(ref root.modules, spriteContainer.Modules.Count);
@@ -70,8 +70,8 @@ public class Testing : MonoBehaviour {
                 int iMid = int.Parse(f.mid, System.Globalization.NumberStyles.HexNumber);
                 frames[k++] = new SpriteFrame {
                     mid = iMid,
-                    ox = f.ox,
-                    oy = f.oy
+                    ox = f.ox / texWidth,
+                    oy = f.oy / texHeight
                 };
             }
         }
@@ -88,25 +88,27 @@ public class Testing : MonoBehaviour {
             typeof(MoveSpeedComponent)
         );
 
-        NativeArray<Entity> entities = new NativeArray<Entity>(25000, Allocator.Temp);
+        NativeArray<Entity> entities = new NativeArray<Entity>(spriteContainer.Animations.Count, Allocator.Temp);
         entityManager.CreateEntity(entityArchetype, entities);
 
+        int defaultAnim = 4;
+        var anim = clipBlob.Value.animations[defaultAnim];
         for(int i = 0;i < entities.Length;i++) {
             Entity entity = entities[i];
             entityManager.SetComponentData(entity,
                 new MoveSpeedComponent {
-                    moveSpeed = UnityEngine.Random.Range(1f, 2f)
+                    moveSpeed = 0//UnityEngine.Random.Range(1f, 2f)
                 }
             );
             entityManager.SetComponentData(entity,
                 new Translation {
-                    Value = new float3(UnityEngine.Random.Range(-8f, 8f), UnityEngine.Random.Range(-5f, 5f), 0)
+                    Value = new float3(UnityEngine.Random.Range(-8f, 8f), UnityEngine.Random.Range(-4.5f, 4.5f), 0)
                 }
             );
             entityManager.SetComponentData(entity,
                 new SpriteSheetAnimationComponent {
                     spriteSheet = clipBlob,
-                    animationId = 0,
+                    animationId = i,
                     currentFrame = 0,
                     frameTimer = 0,
                     frameTimeMax = 0.1f

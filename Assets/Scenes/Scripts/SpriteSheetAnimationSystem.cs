@@ -7,10 +7,9 @@ using Unity.Transforms;
 using UnityEngine;
 using static Unity.Mathematics.math;
 
-public class SpriteSheetAnimationSystem : JobComponentSystem
-{
+public class SpriteSheetAnimationSystem : JobComponentSystem {
     protected override void OnCreate() {
-       
+
         //material = Resources.Load("Test", typeof(Material)) as Material;
     }
 
@@ -23,21 +22,19 @@ public class SpriteSheetAnimationSystem : JobComponentSystem
     // The job is also tagged with the BurstCompile attribute, which means
     // that the Burst compiler will optimize it for the best performance.
     [BurstCompile]
-    struct SpriteSheetAnimationSystemJob : IJobForEach<Translation, SpriteSheetAnimationComponent>
-    {
+    struct SpriteSheetAnimationSystemJob : IJobForEach<Translation, SpriteSheetAnimationComponent> {
         // Add fields here that your job needs to do its work.
         // For example,
         public float deltaTime;
 
-        public void Execute(ref Translation translation, ref SpriteSheetAnimationComponent spriteSheetAnimationComponent)
-        {
+        public void Execute(ref Translation translation, ref SpriteSheetAnimationComponent spriteSheetAnimationComponent) {
             spriteSheetAnimationComponent.frameTimer += deltaTime;
             while(spriteSheetAnimationComponent.frameTimer > spriteSheetAnimationComponent.frameTimeMax) {
                 var anim = spriteSheetAnimationComponent.spriteSheet.Value.animations[spriteSheetAnimationComponent.animationId];
-                
+
                 spriteSheetAnimationComponent.frameTimer -= spriteSheetAnimationComponent.frameTimeMax;
                 spriteSheetAnimationComponent.currentFrame = (spriteSheetAnimationComponent.currentFrame + 1) % anim.totalFrame;
-                var frame = spriteSheetAnimationComponent.spriteSheet.Value.frames[spriteSheetAnimationComponent.currentFrame];
+                var frame = spriteSheetAnimationComponent.spriteSheet.Value.frames[anim.startFrame + spriteSheetAnimationComponent.currentFrame];
                 var module = spriteSheetAnimationComponent.spriteSheet.Value.modules[frame.mid];
                 float uvWidth = module.w;
                 float uvHeight = module.h;
@@ -47,7 +44,14 @@ public class SpriteSheetAnimationSystem : JobComponentSystem
 
                 float3 position = translation.Value;
                 position.z = position.y * 0.1f;
-                spriteSheetAnimationComponent.matrix = Matrix4x4.TRS(position, Quaternion.identity, Vector3.one);
+                //position.x += frame.ox + module.w / 2;
+                //position.y -= frame.oy - module.h / 2;
+
+                float3 scale = new float3(10 * module.w, 10 * module.h, 1);
+
+                position.x -= -10 * frame.ox - scale.x / 2;
+                position.y += -10 * frame.oy - scale.y / 2;
+                spriteSheetAnimationComponent.matrix = Matrix4x4.TRS(position, Quaternion.identity, scale);
             }
             // Implement the work to perform for each entity here.
             // You should only access data that is local or that is a
@@ -61,9 +65,8 @@ public class SpriteSheetAnimationSystem : JobComponentSystem
 
         }
     }
-    
-    protected override JobHandle OnUpdate(JobHandle inputDependencies)
-    {
+
+    protected override JobHandle OnUpdate(JobHandle inputDependencies) {
         var job = new SpriteSheetAnimationSystemJob();
 
         // Assign values to the fields on your job here, so that it has
