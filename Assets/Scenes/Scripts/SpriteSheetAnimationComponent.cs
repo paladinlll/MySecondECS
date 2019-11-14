@@ -43,6 +43,7 @@ public struct SpriteSheetAnimationComponent : IComponentData
     public float frameTimer;
     public float frameTimeMax;
 
+    public float sortingOrder;
     public Vector4 uv;
     public Matrix4x4 matrix;
 }

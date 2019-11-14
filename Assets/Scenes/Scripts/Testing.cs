@@ -88,11 +88,10 @@ public class Testing : MonoBehaviour {
             typeof(MoveSpeedComponent)
         );
 
-        NativeArray<Entity> entities = new NativeArray<Entity>(spriteContainer.Animations.Count, Allocator.Temp);
+        NativeArray<Entity> entities = new NativeArray<Entity>(2000, Allocator.Temp);
         entityManager.CreateEntity(entityArchetype, entities);
 
-        int defaultAnim = 4;
-        var anim = clipBlob.Value.animations[defaultAnim];
+        
         for(int i = 0;i < entities.Length;i++) {
             Entity entity = entities[i];
             entityManager.SetComponentData(entity,
@@ -105,11 +104,14 @@ public class Testing : MonoBehaviour {
                     Value = new float3(UnityEngine.Random.Range(-8f, 8f), UnityEngine.Random.Range(-4.5f, 4.5f), 0)
                 }
             );
+
+            int animationId = UnityEngine.Random.Range(0, spriteContainer.Animations.Count);
+            var anim = clipBlob.Value.animations[animationId];
             entityManager.SetComponentData(entity,
                 new SpriteSheetAnimationComponent {
                     spriteSheet = clipBlob,
-                    animationId = i,
-                    currentFrame = 0,
+                    animationId = animationId,
+                    currentFrame = UnityEngine.Random.Range(0, anim.totalFrame),
                     frameTimer = 0,
                     frameTimeMax = 0.1f
                 }
