@@ -1,4 +1,5 @@
-﻿using Unity.Burst;
+﻿using System.Collections.Generic;
+using Unity.Burst;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
 using Unity.Entities;
@@ -12,9 +13,47 @@ public class SpriteSheetRenderer : ComponentSystem {
     Matrix4x4[] matrixInstanceArray = new Matrix4x4[1023];
     Vector4[] uvInstanceArray = new Vector4[1023];
 
+    Dictionary<int, Material> materialBuffer = new Dictionary<int, Material>();
+    Material defaultMaterial;
+
+    protected override void OnCreate() {
+        base.OnCreate();
+        defaultMaterial = new Material(Shader.Find("Custom/InstancedShader"));
+        defaultMaterial.hideFlags = HideFlags.HideAndDontSave;
+        defaultMaterial.enableInstancing = true;
+
+        SpriteSheetSharedMaterials.RegisterSpriteSheetSharedMaterialChangeEvent(OnSpriteSheetSharedMaterialChange);
+    }
+    protected override void OnDestroy() {
+        SpriteSheetSharedMaterials.UnregisterSpriteSheetSharedMaterialChangeEvent(OnSpriteSheetSharedMaterialChange);
+
+        //foreach(Material m in materialBuffer) {
+        //    Object.DestroyImmediate(m);
+        //}
+        materialBuffer.Clear();
+
+        base.OnDestroy();
+    }
+
+    void OnSpriteSheetSharedMaterialChange(SpriteSheetSharedMaterialResult result) {
+        if(materialBuffer.ContainsKey(result.sheetId)) {
+            materialBuffer[result.sheetId] = result.spriteMat;
+        }
+    }
+
+    private Material GetMaterial(int sheetId) {
+        if(materialBuffer.ContainsKey(sheetId)) {
+            return materialBuffer[sheetId];
+        }
+        materialBuffer[sheetId] = defaultMaterial;
+        SpriteSheetSharedMaterials.instance.AddRequest(sheetId);
+        return defaultMaterial;
+    }
+
     [BurstCompile]
     private struct CopySpriteJob : IJobForEachWithEntity< SpriteSheetAnimationComponent> {
         public NativeQueue<SpriteSheetAnimationComponent>.ParallelWriter sheet0NativeQueue;
+        //public NativeQueue<int>.ParallelWriter sheetGroupNativeQueue;
 
         public void Execute(Entity entity, int index, ref SpriteSheetAnimationComponent spriteSheetAnimationComponent) {
             sheet0NativeQueue.Enqueue(spriteSheetAnimationComponent);
@@ -68,22 +107,6 @@ public class SpriteSheetRenderer : ComponentSystem {
     }
 
     protected override void OnUpdate() {
-        //var camera = Camera.main;
-        //Entities.ForEach((ref Translation translation, ref SpriteSheetAnimationComponent spriteSheetAnimationComponent) => {
-        //    MaterialPropertyBlock materialPropertyBlock = new MaterialPropertyBlock();
-        //    materialPropertyBlock.SetVector("_MainTex_ST", spriteSheetAnimationComponent.uv);
-        //    Graphics.DrawMesh(
-        //        Testing.Instance.mesh,
-        //        spriteSheetAnimationComponent.matrix,
-        //        Testing.Instance.material,
-        //        0,
-        //        camera,
-        //        0,
-        //        materialPropertyBlock
-        //    );
-
-        //});
-
         NativeQueue<SpriteSheetAnimationComponent> sheet0NativeQueue = new NativeQueue<SpriteSheetAnimationComponent>(Allocator.TempJob);
         CopySpriteJob copyTileJob = new CopySpriteJob {
             sheet0NativeQueue = sheet0NativeQueue.AsParallelWriter()
@@ -128,10 +151,18 @@ public class SpriteSheetRenderer : ComponentSystem {
         int sliceCount = matrixInstanceArray.Length;
         int off = 0;
         while(off < visibleTileTotal) {
-            int sliceSize = math.min(visibleTileTotal - off, sliceCount);
-            if(off < sheet0NativeArray.Length && off + sliceSize >= sheet0NativeArray.Length) {
-                sliceSize = sheet0NativeArray.Length - off;
+            int sheetId = sheet0NativeArray[off].sheetMaterialId;
+            int sliceSize = 0;
+            while(off + sliceSize < visibleTileTotal && sliceSize < sliceCount) {
+                if(sheet0NativeArray[off + sliceSize].sheetMaterialId != sheetId) {
+                    break;
+                }
+                sliceSize++;
             }
+            //int sliceSize = math.min(visibleTileTotal - off, sliceCount);
+            //if(off < sheet0NativeArray.Length && off + sliceSize >= sheet0NativeArray.Length) {
+            //    sliceSize = sheet0NativeArray.Length - off;
+            //}
             NativeArray<Matrix4x4>.Copy(matrixArray, off, matrixInstanceArray, 0, sliceSize);
             NativeArray<Vector4>.Copy(uvArray, off, uvInstanceArray, 0, sliceSize);
 
@@ -140,7 +171,7 @@ public class SpriteSheetRenderer : ComponentSystem {
             Graphics.DrawMeshInstanced(
                 Testing.Instance.mesh,
                 0,
-                Testing.Instance.material,
+                GetMaterial(sheetId),
                 matrixInstanceArray,
                 sliceSize,
                 materialPropertyBlock

@@ -36,6 +36,7 @@ public struct SpriteSheetAnimation  {
 [Serializable]
 public struct SpriteSheetAnimationComponent : IComponentData
 {
+    public int sheetMaterialId;
     public int animationId;
     public BlobAssetReference<SpriteSheetAnimation> spriteSheet;
     public int currentFrame;

@@ -17,16 +17,15 @@ public class Testing : MonoBehaviour {
     [SerializeField] Mesh _mesh;
     public Mesh mesh { get { return _mesh; } }
 
-    [SerializeField] Material _material;
-    public Material material { get { return _material; } }
+    //[SerializeField] Material _material;
+    //public Material material { get { return _material; } }
 
     private void Awake() {
         _instance = this;
     }
 
-    // Start is called before the first frame update
-    void Start() {
-        XmlDTO.SpriteDTO spriteContainer = XmlDTO.SpriteDTO.Load(Resources.Load<TextAsset>("sprites/heroes/hero_sophie_sheet").text);
+    private BlobAssetReference<SpriteSheetAnimation> LoadSpriteSheetData(string sheetName) {
+        XmlDTO.SpriteDTO spriteContainer = XmlDTO.SpriteDTO.Load(Resources.Load<TextAsset>($"sprites/heroes/{sheetName}").text);
         if(spriteContainer == null) {
             Debug.LogError("spriteContainer == null");
         } else {
@@ -35,8 +34,8 @@ public class Testing : MonoBehaviour {
         var builder = new BlobBuilder(Allocator.Persistent);
         ref var root = ref builder.ConstructRoot<SpriteSheetAnimation>();
         float ppu = 100;
-        float texWidth = material.mainTexture.width;
-        float texHeight = material.mainTexture.height;
+        float texWidth = 1024;
+        float texHeight = 1024;
         var modules = builder.Allocate(ref root.modules, spriteContainer.Modules.Count);
         for(int i = 0;i < spriteContainer.Modules.Count;i++) {
             var m = spriteContainer.Modules[i];
@@ -77,6 +76,14 @@ public class Testing : MonoBehaviour {
         }
 
         var clipBlob = builder.CreateBlobAssetReference<SpriteSheetAnimation>(Allocator.Persistent);
+        return clipBlob;
+    }
+
+    // Start is called before the first frame update
+    void Start() {
+        BlobAssetReference<SpriteSheetAnimation>[] blobAssets = new BlobAssetReference<SpriteSheetAnimation>[2];
+        blobAssets[0] = LoadSpriteSheetData("hero_sophie_sheet");
+        blobAssets[1] = LoadSpriteSheetData("enemy_global_sheet");
 
         EntityManager entityManager = World.Active.EntityManager;
 
@@ -105,10 +112,13 @@ public class Testing : MonoBehaviour {
                 }
             );
 
-            int animationId = UnityEngine.Random.Range(0, spriteContainer.Animations.Count);
+            var sheetId = UnityEngine.Random.Range(0, 2);
+            var clipBlob = blobAssets[sheetId];
+            int animationId = UnityEngine.Random.Range(0, clipBlob.Value.animations.Length);
             var anim = clipBlob.Value.animations[animationId];
             entityManager.SetComponentData(entity,
                 new SpriteSheetAnimationComponent {
+                    sheetMaterialId = sheetId,
                     spriteSheet = clipBlob,
                     animationId = animationId,
                     currentFrame = UnityEngine.Random.Range(0, anim.totalFrame),
@@ -116,11 +126,6 @@ public class Testing : MonoBehaviour {
                     frameTimeMax = 0.1f
                 }
             );
-            //entityManager.SetSharedComponentData(entity, new RenderMesh {
-            //    mesh = mesh,
-            //    material = material
-            //});
-
         }
 
 

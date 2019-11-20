@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPRITE>
+  <IMAGES>
+    <IMAGE path="enemy_global.png" transp="0" />
+  </IMAGES>
+  <MODULES>
+    <MODULE id="0" x="0" y="0" w="56" h="63" desc="" />
+    <MODULE id="1" x="56" y="0" w="79" h="45" desc="" />
+    <MODULE id="2" x="56" y="45" w="63" h="58" desc="" />
+    <MODULE id="3" x="56" y="103" w="64" h="59" desc="" />
+    <MODULE id="4" x="119" y="45" w="63" h="57" desc="" />
+    <MODULE id="5" x="182" y="45" w="74" h="50" desc="" />
+    <MODULE id="6" x="120" y="103" w="84" h="63" desc="" />
+    <MODULE id="7" x="0" y="63" w="47" h="44" desc="" />
+    <MODULE id="8" x="0" y="107" w="56" h="37" desc="" />
+    <MODULE id="9" x="135" y="0" w="59" h="36" desc="" />
+    <MODULE id="a" x="120" y="166" w="94" h="64" desc="" />
+    <MODULE id="b" x="214" y="166" w="106" h="81" desc="" />
+    <MODULE id="c" x="256" y="45" w="92" h="57" desc="" />
+    <MODULE id="d" x="348" y="45" w="88" h="57" desc="" />
+    <MODULE id="e" x="204" y="103" w="85" h="62" desc="" />
+    <MODULE id="f" x="0" y="144" w="40" h="68" desc="" />
+    <MODULE id="10" x="0" y="212" w="28" h="39" desc="" />
+    <MODULE id="11" x="436" y="45" w="68" h="50" desc="" />
+    <MODULE id="12" x="504" y="45" w="68" h="50" desc="" />
+    <MODULE id="13" x="572" y="45" w="68" h="53" desc="" />
+    <MODULE id="14" x="640" y="45" w="68" h="52" desc="" />
+    <MODULE id="15" x="708" y="45" w="65" h="58" desc="" />
+    <MODULE id="16" x="773" y="45" w="68" h="52" desc="" />
+    <MODULE id="17" x="194" y="0" w="59" h="42" desc="" />
+    <MODULE id="18" x="841" y="45" w="75" h="50" desc="" />
+    <MODULE id="19" x="916" y="45" w="81" h="55" desc="" />
+    <MODULE id="1a" x="289" y="103" w="84" h="55" desc="" />
+    <MODULE id="1b" x="373" y="103" w="76" h="49" desc="" />
+    <MODULE id="1c" x="56" y="162" w="59" h="58" desc="" />
+    <MODULE id="1d" x="56" y="220" w="58" h="59" desc="" />
+    <MODULE id="1e" x="56" y="279" w="59" h="57" desc="" />
+    <MODULE id="1f" x="214" y="247" w="174" h="105" desc="" />
+    <MODULE id="20" x="214" y="352" w="201" h="192" desc="" />
+    <MODULE id="21" x="0" y="251" w="54" h="46" desc="" />
+    <MODULE id="22" x="0" y="297" w="54" h="58" desc="" />
+    <MODULE id="23" x="0" y="355" w="55" h="61" desc="" />
+    <MODULE id="24" x="0" y="416" w="54" h="46" desc="" />
+    <MODULE id="25" x="0" y="462" w="54" h="45" desc="" />
+    <MODULE id="26" x="0" y="507" w="53" h="46" desc="" />
+    <MODULE id="27" x="0" y="553" w="54" h="46" desc="" />
+    <MODULE id="28" x="0" y="599" w="55" h="51" desc="" />
+    <MODULE id="29" x="120" y="230" w="83" h="80" desc="" />
+    <MODULE id="2a" x="120" y="310" w="83" h="106" desc="" />
+    <MODULE id="2b" x="120" y="416" w="82" h="102" desc="" />
+    <MODULE id="2c" x="120" y="518" w="75" h="83" desc="" />
+    <MODULE id="2d" x="120" y="601" w="88" h="80" desc="" />
+    <MODULE id="2e" x="120" y="681" w="83" h="80" desc="" />
+    <MODULE id="2f" x="120" y="761" w="84" h="81" desc="" />
+    <MODULE id="30" x="120" y="842" w="83" h="81" desc="" />
+    <MODULE id="31" x="0" y="650" w="56" h="58" desc="" />
+    <MODULE id="32" x="449" y="103" w="65" h="47" desc="" />
+    <MODULE id="33" x="0" y="708" w="43" h="44" desc="" />
+    <MODULE id="34" x="0" y="752" w="47" h="49" desc="" />
+    <MODULE id="35" x="0" y="801" w="46" h="53" desc="" />
+    <MODULE id="36" x="253" y="0" w="59" h="45" desc="" />
+    <MODULE id="37" x="56" y="336" w="63" h="49" desc="" />
+    <MODULE id="38" x="56" y="385" w="57" h="55" desc="" />
+    <MODULE id="39" x="120" y="923" w="77" h="74" desc="" />
+    <MODULE id="3a" x="56" y="440" w="59" h="59" desc="" />
+    <MODULE id="3b" x="320" y="166" w="77" h="68" desc="" />
+    <MODULE id="3c" x="397" y="166" w="71" h="70" desc="" />
+    <MODULE id="3d" x="468" y="166" w="79" h="73" desc="" />
+    <MODULE id="3e" x="547" y="166" w="78" h="73" desc="" />
+    <MODULE id="3f" x="625" y="166" w="81" h="67" desc="" />
+    <MODULE id="40" x="388" y="247" w="129" h="85" desc="" />
+    <MODULE id="41" x="706" y="166" w="144" h="80" desc="" />
+    <MODULE id="42" x="850" y="166" w="131" h="68" desc="" />
+    <MODULE id="43" x="517" y="247" w="123" h="68" desc="" />
+    <MODULE id="44" x="640" y="247" w="79" h="71" desc="" />
+    <MODULE id="45" x="719" y="247" w="80" h="69" desc="" />
+    <MODULE id="46" x="799" y="247" w="79" h="75" desc="" />
+    <MODULE id="47" x="312" y="0" w="59" h="42" desc="" />
+    <MODULE id="48" x="514" y="103" w="75" h="50" desc="" />
+    <MODULE id="49" x="589" y="103" w="81" h="55" desc="" />
+    <MODULE id="4a" x="670" y="103" w="84" h="55" desc="" />
+    <MODULE id="4b" x="754" y="103" w="76" h="49" desc="" />
+    <MODULE id="4c" x="830" y="103" w="79" h="53" desc="" />
+    <MODULE id="4d" x="909" y="103" w="79" h="56" desc="" />
+    <MODULE id="4e" x="878" y="247" w="79" h="65" desc="" />
+    <MODULE id="4f" x="214" y="544" w="75" h="59" desc="" />
+    <MODULE id="50" x="214" y="603" w="75" h="74" desc="" />
+    <MODULE id="51" x="214" y="677" w="71" h="84" desc="" />
+    <MODULE id="52" x="285" y="677" w="68" h="77" desc="" />
+    <MODULE id="53" x="289" y="544" w="72" h="58" desc="" />
+    <MODULE id="54" x="289" y="603" w="69" h="59" desc="" />
+    <MODULE id="55" x="214" y="761" w="69" h="57" desc="" />
+    <MODULE id="56" x="371" y="0" w="62" h="41" desc="" />
+    <MODULE id="57" x="56" y="499" w="62" h="56" desc="" />
+    <MODULE id="58" x="56" y="555" w="59" h="60" desc="" />
+    <MODULE id="59" x="56" y="615" w="60" h="65" desc="" />
+    <MODULE id="5a" x="433" y="0" w="73" h="37" desc="" />
+    <MODULE id="5b" x="506" y="0" w="62" h="41" desc="" />
+    <MODULE id="5c" x="0" y="854" w="53" h="44" desc="" />
+    <MODULE id="5d" x="283" y="761" w="68" h="50" desc="" />
+    <MODULE id="5e" x="214" y="818" w="68" h="50" desc="" />
+    <MODULE id="5f" x="214" y="868" w="70" h="51" desc="" />
+    <MODULE id="60" x="214" y="919" w="68" h="52" desc="" />
+    <MODULE id="61" x="957" y="247" w="65" h="58" desc="" />
+    <MODULE id="62" x="214" y="971" w="68" h="52" desc="" />
+    <MODULE id="63" x="284" y="868" w="82" h="91" desc="" />
+    <MODULE id="64" x="415" y="352" w="81" h="76" desc="" />
+    <MODULE id="65" x="284" y="959" w="78" h="53" desc="" />
+    <MODULE id="66" x="415" y="428" w="79" h="93" desc="" />
+    <MODULE id="67" x="415" y="521" w="78" h="92" desc="" />
+    <MODULE id="68" x="415" y="613" w="79" h="88" desc="" />
+    <MODULE id="69" x="494" y="428" w="82" h="117" desc="" />
+    <MODULE id="6a" x="415" y="701" w="78" h="115" desc="" />
+    <MODULE id="6b" x="0" y="898" w="32" h="52" desc="" />
+    <MODULE id="6c" x="0" y="950" w="32" h="68" desc="" />
+    <MODULE id="6d" x="56" y="680" w="32" h="94" desc="" />
+    <MODULE id="6e" x="997" y="45" w="25" h="54" desc="" />
+    <MODULE id="6f" x="576" y="428" w="107" h="100" desc="" />
+    <MODULE id="70" x="683" y="428" w="104" h="77" desc="" />
+    <MODULE id="71" x="787" y="428" w="107" h="110" desc="" />
+    <MODULE id="72" x="894" y="428" w="105" h="107" desc="" />
+    <MODULE id="73" x="494" y="545" w="103" h="104" desc="" />
+    <MODULE id="74" x="568" y="0" w="47" h="36" desc="" />
+    <MODULE id="75" x="615" y="0" w="48" h="38" desc="" />
+    <MODULE id="76" x="663" y="0" w="49" h="36" desc="" />
+    <MODULE id="77" x="496" y="352" w="117" h="72" desc="" />
+    <MODULE id="78" x="597" y="545" w="138" h="77" desc="" />
+    <MODULE id="79" x="282" y="818" w="86" h="48" desc="" />
+    <MODULE id="7a" x="613" y="352" w="72" h="54" desc="" />
+    <MODULE id="7b" x="56" y="774" w="57" h="64" desc="" />
+    <MODULE id="7c" x="685" y="352" w="117" h="72" desc="" />
+    <MODULE id="7d" x="735" y="545" w="138" h="77" desc="" />
+    <MODULE id="7e" x="802" y="352" w="92" h="61" desc="" />
+    <MODULE id="7f" x="894" y="352" w="118" h="48" desc="" />
+    <MODULE id="80" x="415" y="816" w="75" h="74" desc="" />
+    <MODULE id="81" x="712" y="0" w="67" h="37" desc="" />
+    <MODULE id="82" x="779" y="0" w="86" h="45" desc="" />
+    <MODULE id="83" x="56" y="838" w="49" h="57" desc="" />
+    <MODULE id="84" x="56" y="895" w="61" h="52" desc="" />
+    <MODULE id="85" x="865" y="0" w="71" h="42" desc="" />
+    <MODULE id="86" x="936" y="0" w="67" h="37" desc="" />
+    <MODULE id="87" x="494" y="649" w="86" h="45" desc="" />
+    <MODULE id="88" x="415" y="890" w="71" h="42" desc="" />
+    <MODULE id="89" x="56" y="947" w="59" h="59" desc="" />
+    <MODULE id="8a" x="415" y="932" w="65" h="49" desc="" />
+    <MODULE id="8b" x="517" y="315" w="50" h="29" desc="" />
+    <MODULE id="8c" x="957" y="305" w="53" h="47" desc="" />
+    <MODULE id="8d" x="353" y="677" w="59" h="56" desc="" />
+    <MODULE id="8e" x="494" y="694" w="96" h="83" desc="" />
+    <MODULE id="8f" x="494" y="777" w="90" h="78" desc="" />
+    <MODULE id="90" x="494" y="855" w="86" h="70" desc="" />
+    <MODULE id="91" x="494" y="925" w="86" h="72" desc="" />
+    <MODULE id="92" x="873" y="545" w="85" h="70" desc="" />
+    <MODULE id="93" x="597" y="622" w="114" h="176" desc="" />
+    <MODULE id="94" x="597" y="798" w="74" h="50" desc="" />
+    <MODULE id="95" x="597" y="848" w="84" h="63" desc="" />
+    <MODULE id="96" x="567" y="315" w="59" h="36" desc="" />
+    <MODULE id="97" x="878" y="312" w="56" h="37" desc="" />
+    <MODULE id="98" x="361" y="544" w="47" h="44" desc="" />
+    <MODULE id="99" x="597" y="911" w="91" h="72" desc="" />
+    <MODULE id="9a" x="711" y="622" w="99" h="81" desc="" />
+    <MODULE id="9b" x="810" y="622" w="88" h="74" desc="" />
+    <MODULE id="9c" x="351" y="761" w="60" h="47" desc="" />
+    <MODULE id="9d" x="719" y="316" w="59" h="36" desc="" />
+    <MODULE id="9e" x="415" y="981" w="59" h="36" desc="" />
+    <MODULE id="9f" x="898" y="622" w="79" h="66" desc="" />
+    <MODULE id="a0" x="711" y="703" w="79" h="63" desc="" />
+    <MODULE id="a1" x="711" y="766" w="72" h="90" desc="" />
+    <MODULE id="a2" x="711" y="856" w="71" h="99" desc="" />
+    <MODULE id="a3" x="783" y="766" w="62" h="95" desc="" />
+    <MODULE id="a4" x="845" y="766" w="72" h="71" desc="" />
+    <MODULE id="a5" x="917" y="766" w="76" h="70" desc="" />
+    <MODULE id="a6" x="845" y="837" w="79" h="70" desc="" />
+    <MODULE id="a7" x="358" y="603" w="56" h="64" desc="" />
+    <MODULE id="a8" x="790" y="703" w="79" h="45" desc="" />
+    <MODULE id="a9" x="958" y="545" w="63" h="58" desc="" />
+    <MODULE id="aa" x="869" y="703" w="64" h="59" desc="" />
+    <MODULE id="ab" x="933" y="703" w="63" h="57" desc="" />
+  </MODULES>
+  <FRAMES>
+    <FRAME id="1000" desc="ArWolf_die_0">
+      <FMODULE mid="0" ScaleX="1" ScaleY="1" ox="-32" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1001" desc="ArWolf_die_1">
+      <FMODULE mid="1" ScaleX="1" ScaleY="1" ox="-39" oy="-38" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1002" desc="ArWolf_go_0">
+      <FMODULE mid="2" ScaleX="1" ScaleY="1" ox="-31" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1003" desc="ArWolf_go_1">
+      <FMODULE mid="3" ScaleX="1" ScaleY="1" ox="-32" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1004" desc="ArWolf_go_2">
+      <FMODULE mid="4" ScaleX="1" ScaleY="1" ox="-31" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1005" desc="ArWolf_go_3">
+      <FMODULE mid="3" ScaleX="1" ScaleY="1" ox="-32" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1006" desc="Bat_die_0">
+      <FMODULE mid="5" ScaleX="1" ScaleY="1" ox="-32" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1007" desc="Bat_die_1">
+      <FMODULE mid="6" ScaleX="1" ScaleY="1" ox="-39" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1008" desc="Bat_go_0">
+      <FMODULE mid="7" ScaleX="1" ScaleY="1" ox="-20" oy="-53" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1009" desc="Bat_go_1">
+      <FMODULE mid="8" ScaleX="1" ScaleY="1" ox="-24" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100a" desc="Bat_go_2">
+      <FMODULE mid="9" ScaleX="1" ScaleY="1" ox="-25" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100b" desc="Bat_go_3">
+      <FMODULE mid="8" ScaleX="1" ScaleY="1" ox="-24" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100c" desc="BBat_die_0">
+      <FMODULE mid="a" ScaleX="1" ScaleY="1" ox="-42" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100d" desc="BBat_die_1">
+      <FMODULE mid="b" ScaleX="1" ScaleY="1" ox="-50" oy="-76" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100e" desc="BBat_go_0">
+      <FMODULE mid="c" ScaleX="1" ScaleY="1" ox="-45" oy="-55" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="100f" desc="BBat_go_1">
+      <FMODULE mid="d" ScaleX="1" ScaleY="1" ox="-49" oy="-57" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1010" desc="BBat_go_2">
+      <FMODULE mid="e" ScaleX="1" ScaleY="1" ox="-47" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1011" desc="BBat_go_3">
+      <FMODULE mid="d" ScaleX="1" ScaleY="1" ox="-49" oy="-57" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1012" desc="Bomb_bomb_0">
+      <FMODULE mid="f" ScaleX="1" ScaleY="1" ox="-17" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1013" desc="BuffIcon_StoutShield_0">
+      <FMODULE mid="10" ScaleX="1" ScaleY="1" ox="-11" oy="-37" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1014" desc="Bull_die_0">
+      <FMODULE mid="11" ScaleX="1" ScaleY="1" ox="-34" oy="-48" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1015" desc="Bull_die_1">
+      <FMODULE mid="12" ScaleX="1" ScaleY="1" ox="-34" oy="-46" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1016" desc="Bull_go_0">
+      <FMODULE mid="13" ScaleX="1" ScaleY="1" ox="-34" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1017" desc="Bull_go_1">
+      <FMODULE mid="14" ScaleX="1" ScaleY="1" ox="-34" oy="-48" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1018" desc="Bull_go_2">
+      <FMODULE mid="15" ScaleX="1" ScaleY="1" ox="-33" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1019" desc="Bull_go_3">
+      <FMODULE mid="16" ScaleX="1" ScaleY="1" ox="-34" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101a" desc="CWolf_die_0">
+      <FMODULE mid="17" ScaleX="1" ScaleY="1" ox="-29" oy="-34" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101b" desc="CWolf_die_1">
+      <FMODULE mid="18" ScaleX="1" ScaleY="1" ox="-39" oy="-40" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101c" desc="CWolf_die_2">
+      <FMODULE mid="19" ScaleX="1" ScaleY="1" ox="-42" oy="-47" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101d" desc="CWolf_die_3">
+      <FMODULE mid="1a" ScaleX="1" ScaleY="1" ox="-44" oy="-45" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101e" desc="CWolf_die_4">
+      <FMODULE mid="1b" ScaleX="1" ScaleY="1" ox="-43" oy="-44" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="101f" desc="CWolf_go_0">
+      <FMODULE mid="1c" ScaleX="1" ScaleY="1" ox="-27" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1020" desc="CWolf_go_1">
+      <FMODULE mid="1d" ScaleX="1" ScaleY="1" ox="-26" oy="-50" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1021" desc="CWolf_go_2">
+      <FMODULE mid="1e" ScaleX="1" ScaleY="1" ox="-27" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1022" desc="CWolf_go_3">
+      <FMODULE mid="1d" ScaleX="1" ScaleY="1" ox="-26" oy="-50" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1023" desc="DarkDoor_Die_0">
+      <FMODULE mid="1f" ScaleX="1" ScaleY="1" ox="-81" oy="-73" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1024" desc="DarkDoor_Idle_0">
+      <FMODULE mid="20" ScaleX="1" ScaleY="1" ox="-94" oy="-156" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1025" desc="DemonEye_die_0">
+      <FMODULE mid="21" ScaleX="1" ScaleY="1" ox="-22" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1026" desc="DemonEye_die_1">
+      <FMODULE mid="22" ScaleX="1" ScaleY="1" ox="-22" oy="-71" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1027" desc="DemonEye_die_2">
+      <FMODULE mid="23" ScaleX="1" ScaleY="1" ox="-22" oy="-75" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1028" desc="DemonEye_go_0">
+      <FMODULE mid="24" ScaleX="1" ScaleY="1" ox="-22" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1029" desc="DemonEye_go_1">
+      <FMODULE mid="25" ScaleX="1" ScaleY="1" ox="-22" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102a" desc="DemonEye_go_2">
+      <FMODULE mid="26" ScaleX="1" ScaleY="1" ox="-22" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102b" desc="DemonEye_go_3">
+      <FMODULE mid="25" ScaleX="1" ScaleY="1" ox="-22" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102c" desc="DemonEye_skill_0">
+      <FMODULE mid="27" ScaleX="1" ScaleY="1" ox="-22" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102d" desc="DemonEye_skill_1">
+      <FMODULE mid="28" ScaleX="1" ScaleY="1" ox="-22" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102e" desc="DemonEye_skill_2">
+      <FMODULE mid="27" ScaleX="1" ScaleY="1" ox="-22" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="102f" desc="DemonThug_die_0">
+      <FMODULE mid="29" ScaleX="1" ScaleY="1" ox="-45" oy="-77" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1030" desc="DemonThug_die_1">
+      <FMODULE mid="2a" ScaleX="1" ScaleY="1" ox="-45" oy="-103" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1031" desc="DemonThug_die_2">
+      <FMODULE mid="2b" ScaleX="1" ScaleY="1" ox="-45" oy="-105" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1032" desc="DemonThug_die_3">
+      <FMODULE mid="2c" ScaleX="1" ScaleY="1" ox="-42" oy="-110" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1033" desc="DemonThug_go_0">
+      <FMODULE mid="2d" ScaleX="1" ScaleY="1" ox="-52" oy="-78" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1034" desc="DemonThug_go_1">
+      <FMODULE mid="2e" ScaleX="1" ScaleY="1" ox="-45" oy="-77" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1035" desc="DemonThug_go_2">
+      <FMODULE mid="2f" ScaleX="1" ScaleY="1" ox="-39" oy="-78" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1036" desc="DemonThug_go_3">
+      <FMODULE mid="30" ScaleX="1" ScaleY="1" ox="-45" oy="-77" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1037" desc="Flame_die_0">
+      <FMODULE mid="31" ScaleX="1" ScaleY="1" ox="-24" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1038" desc="Flame_die_1">
+      <FMODULE mid="32" ScaleX="1" ScaleY="1" ox="-29" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1039" desc="Flame_go_0">
+      <FMODULE mid="33" ScaleX="1" ScaleY="1" ox="-18" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103a" desc="Flame_go_1">
+      <FMODULE mid="34" ScaleX="1" ScaleY="1" ox="-21" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103b" desc="Flame_go_2">
+      <FMODULE mid="35" ScaleX="1" ScaleY="1" ox="-19" oy="-61" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103c" desc="Flame_skill_0">
+      <FMODULE mid="36" ScaleX="1" ScaleY="1" ox="-18" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103d" desc="Flame_skill_1">
+      <FMODULE mid="37" ScaleX="1" ScaleY="1" ox="-21" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103e" desc="Flame_skill_2">
+      <FMODULE mid="38" ScaleX="1" ScaleY="1" ox="-19" oy="-63" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="103f" desc="FlameFighter_die_0">
+      <FMODULE mid="39" ScaleX="1" ScaleY="1" ox="-39" oy="-65" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1040" desc="FlameFighter_die_1">
+      <FMODULE mid="3a" ScaleX="1" ScaleY="1" ox="-27" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1041" desc="FlameFighter_go_0">
+      <FMODULE mid="3b" ScaleX="1" ScaleY="1" ox="-39" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1042" desc="FlameFighter_go_1">
+      <FMODULE mid="3c" ScaleX="1" ScaleY="1" ox="-33" oy="-64" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1043" desc="FlameFighter_go_2">
+      <FMODULE mid="3d" ScaleX="1" ScaleY="1" ox="-41" oy="-69" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1044" desc="FlameFighter_go_3">
+      <FMODULE mid="3e" ScaleX="1" ScaleY="1" ox="-40" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1045" desc="FlameFighter_skill_0">
+      <FMODULE mid="3f" ScaleX="1" ScaleY="1" ox="-43" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1046" desc="FlameFighter_skill_1">
+      <FMODULE mid="40" ScaleX="1" ScaleY="1" ox="-43" oy="-72" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1047" desc="FlameFighter_skill_2">
+      <FMODULE mid="41" ScaleX="1" ScaleY="1" ox="-43" oy="-71" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1048" desc="FlameFighter_skill_3">
+      <FMODULE mid="42" ScaleX="1" ScaleY="1" ox="-39" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1049" desc="FlameFighter_skill_4">
+      <FMODULE mid="43" ScaleX="1" ScaleY="1" ox="-39" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104a" desc="GhostWind_go_0">
+      <FMODULE mid="44" ScaleX="1" ScaleY="1" ox="-45" oy="-70" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104b" desc="GhostWind_go_1">
+      <FMODULE mid="45" ScaleX="1" ScaleY="1" ox="-46" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104c" desc="GhostWind_go_2">
+      <FMODULE mid="46" ScaleX="1" ScaleY="1" ox="-47" oy="-74" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104d" desc="GlobalBomb_globalminibom_0">
+      <FMODULE mid="47" ScaleX="1" ScaleY="1" ox="-18" oy="-20" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104e" desc="GlobalBomb_globalminibom_1">
+      <FMODULE mid="48" ScaleX="1" ScaleY="1" ox="-28" oy="-26" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="104f" desc="GlobalBomb_globalminibom_2">
+      <FMODULE mid="49" ScaleX="1" ScaleY="1" ox="-31" oy="-33" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1050" desc="GlobalBomb_globalminibom_3">
+      <FMODULE mid="4a" ScaleX="1" ScaleY="1" ox="-33" oy="-31" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1051" desc="GlobalBomb_globalminibom_4">
+      <FMODULE mid="4b" ScaleX="1" ScaleY="1" ox="-32" oy="-30" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1052" desc="GoldenSheep_go_0">
+      <FMODULE mid="4c" ScaleX="1" ScaleY="1" ox="-39" oy="-113" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1053" desc="GoldenSheep_go_1">
+      <FMODULE mid="4d" ScaleX="1" ScaleY="1" ox="-39" oy="-114" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1054" desc="GoldenSheep_go_2">
+      <FMODULE mid="4e" ScaleX="1" ScaleY="1" ox="-39" oy="-121" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1055" desc="GoldenSheep_go_3">
+      <FMODULE mid="4d" ScaleX="1" ScaleY="1" ox="-39" oy="-114" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1056" desc="Imp_die_0">
+      <FMODULE mid="4f" ScaleX="1" ScaleY="1" ox="-27" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1057" desc="Imp_die_1">
+      <FMODULE mid="50" ScaleX="1" ScaleY="1" ox="-27" oy="-68" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1058" desc="Imp_die_2">
+      <FMODULE mid="51" ScaleX="1" ScaleY="1" ox="-27" oy="-78" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1059" desc="Imp_die_3">
+      <FMODULE mid="52" ScaleX="1" ScaleY="1" ox="-23" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105a" desc="Imp_go_0">
+      <FMODULE mid="53" ScaleX="1" ScaleY="1" ox="-26" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105b" desc="Imp_go_1">
+      <FMODULE mid="54" ScaleX="1" ScaleY="1" ox="-27" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105c" desc="Imp_go_2">
+      <FMODULE mid="55" ScaleX="1" ScaleY="1" ox="-26" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105d" desc="Imp_go_3">
+      <FMODULE mid="54" ScaleX="1" ScaleY="1" ox="-27" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105e" desc="LittleDemon_die_0">
+      <FMODULE mid="56" ScaleX="1" ScaleY="1" ox="-34" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="105f" desc="LittleDemon_die_1">
+      <FMODULE mid="57" ScaleX="1" ScaleY="1" ox="-34" oy="-74" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1060" desc="LittleDemon_die_2">
+      <FMODULE mid="58" ScaleX="1" ScaleY="1" ox="-31" oy="-83" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1061" desc="LittleDemon_die_3">
+      <FMODULE mid="59" ScaleX="1" ScaleY="1" ox="-32" oy="-91" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1062" desc="LittleDemon_go_0">
+      <FMODULE mid="5a" ScaleX="1" ScaleY="1" ox="-43" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1063" desc="LittleDemon_go_1">
+      <FMODULE mid="5b" ScaleX="1" ScaleY="1" ox="-34" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1064" desc="LittleDemon_go_2">
+      <FMODULE mid="5c" ScaleX="1" ScaleY="1" ox="-30" oy="-61" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1065" desc="LittleDemon_go_3">
+      <FMODULE mid="5b" ScaleX="1" ScaleY="1" ox="-34" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1066" desc="RedBull_die_0">
+      <FMODULE mid="5d" ScaleX="1" ScaleY="1" ox="-34" oy="-48" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1067" desc="RedBull_die_1">
+      <FMODULE mid="5e" ScaleX="1" ScaleY="1" ox="-34" oy="-46" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1068" desc="RedBull_go_0">
+      <FMODULE mid="5f" ScaleX="1" ScaleY="1" ox="-35" oy="-46" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1069" desc="RedBull_go_1">
+      <FMODULE mid="60" ScaleX="1" ScaleY="1" ox="-34" oy="-48" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106a" desc="RedBull_go_2">
+      <FMODULE mid="61" ScaleX="1" ScaleY="1" ox="-33" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106b" desc="RedBull_go_3">
+      <FMODULE mid="62" ScaleX="1" ScaleY="1" ox="-34" oy="-52" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106c" desc="RoboTrain_die_0">
+      <FMODULE mid="63" ScaleX="1" ScaleY="1" ox="-38" oy="-86" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106d" desc="RoboTrain_die_1">
+      <FMODULE mid="64" ScaleX="1" ScaleY="1" ox="-46" oy="-71" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106e" desc="RoboTrain_die_2">
+      <FMODULE mid="65" ScaleX="1" ScaleY="1" ox="-39" oy="-44" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="106f" desc="RoboTrain_go_0">
+      <FMODULE mid="66" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1070" desc="RoboTrain_go_1">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1071" desc="RoboTrain_go_2">
+      <FMODULE mid="68" ScaleX="1" ScaleY="1" ox="-37" oy="-85" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1072" desc="RoboTrain_go_3">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1073" desc="RoboTrain_go_4">
+      <FMODULE mid="68" ScaleX="1" ScaleY="1" ox="-37" oy="-85" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1074" desc="RoboTrain_go_5">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1075" desc="RoboTrain_go_6">
+      <FMODULE mid="66" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1076" desc="RoboTrain_go_7">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1077" desc="RoboTrain_go_8">
+      <FMODULE mid="68" ScaleX="1" ScaleY="1" ox="-37" oy="-85" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1078" desc="RoboTrain_go_9">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1079" desc="RoboTrain_go_10">
+      <FMODULE mid="66" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107a" desc="RoboTrain_go_11">
+      <FMODULE mid="67" ScaleX="1" ScaleY="1" ox="-36" oy="-88" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107b" desc="RoboTrain_Smoke_0">
+      <FMODULE mid="69" ScaleX="1" ScaleY="1" ox="-38" oy="-112" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107c" desc="RoboTrain_Smoke_1">
+      <FMODULE mid="6a" ScaleX="1" ScaleY="1" ox="-36" oy="-111" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107d" desc="RoboTrain_Smoke_2">
+      <FMODULE mid="69" ScaleX="1" ScaleY="1" ox="-38" oy="-112" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107e" desc="RoboTrain_Smoke_3">
+      <FMODULE mid="6a" ScaleX="1" ScaleY="1" ox="-36" oy="-111" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="107f" desc="RoboTrain_Smoke_4">
+      <FMODULE mid="69" ScaleX="1" ScaleY="1" ox="-38" oy="-112" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1080" desc="RoboTrain_Smoke_5">
+      <FMODULE mid="6a" ScaleX="1" ScaleY="1" ox="-36" oy="-111" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1081" desc="Rocket_roket_0">
+      <FMODULE mid="6b" ScaleX="1" ScaleY="1" ox="-10" oy="-9" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1082" desc="Rocket_roket_1">
+      <FMODULE mid="6c" ScaleX="1" ScaleY="1" ox="-10" oy="-9" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1083" desc="Rocket_roket_2">
+      <FMODULE mid="6d" ScaleX="1" ScaleY="1" ox="-10" oy="-9" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1084" desc="Rocket_smoke_0">
+      <FMODULE mid="6e" ScaleX="1" ScaleY="1" ox="-9" oy="-69" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1085" desc="SandKing_die_0">
+      <FMODULE mid="6f" ScaleX="1" ScaleY="1" ox="-62" oy="-90" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1086" desc="SandKing_die_1">
+      <FMODULE mid="70" ScaleX="1" ScaleY="1" ox="-59" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1087" desc="SandKing_go_0">
+      <FMODULE mid="71" ScaleX="1" ScaleY="1" ox="-62" oy="-99" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1088" desc="SandKing_go_1">
+      <FMODULE mid="72" ScaleX="1" ScaleY="1" ox="-61" oy="-97" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1089" desc="SandKing_go_2">
+      <FMODULE mid="73" ScaleX="1" ScaleY="1" ox="-60" oy="-93" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108a" desc="SandKing_go_3">
+      <FMODULE mid="72" ScaleX="1" ScaleY="1" ox="-61" oy="-97" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108b" desc="Sheep_go_0">
+      <FMODULE mid="74" ScaleX="1" ScaleY="1" ox="-19" oy="-31" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108c" desc="Sheep_go_1">
+      <FMODULE mid="75" ScaleX="1" ScaleY="1" ox="-17" oy="-34" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108d" desc="Sheep_go_2">
+      <FMODULE mid="76" ScaleX="1" ScaleY="1" ox="-19" oy="-32" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108e" desc="Slima_die_0">
+      <FMODULE mid="77" ScaleX="1" ScaleY="1" ox="-55" oy="-69" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="108f" desc="Slima_die_1">
+      <FMODULE mid="78" ScaleX="1" ScaleY="1" ox="-67" oy="-79" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1090" desc="Slima_go_0">
+      <FMODULE mid="79" ScaleX="1" ScaleY="1" ox="-38" oy="-44" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1091" desc="Slima_go_1">
+      <FMODULE mid="7a" ScaleX="1" ScaleY="1" ox="-31" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1092" desc="Slima_go_2">
+      <FMODULE mid="7b" ScaleX="1" ScaleY="1" ox="-24" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1093" desc="Slimax_die_0">
+      <FMODULE mid="7c" ScaleX="1" ScaleY="1" ox="-55" oy="-76" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1094" desc="Slimax_die_1">
+      <FMODULE mid="7d" ScaleX="1" ScaleY="1" ox="-67" oy="-86" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1095" desc="Slimax_go_0">
+      <FMODULE mid="7e" ScaleX="1" ScaleY="1" ox="-42" oy="-62" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1096" desc="Slimax_go_1">
+      <FMODULE mid="7f" ScaleX="1" ScaleY="1" ox="-53" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1097" desc="Slimax_go_2">
+      <FMODULE mid="7e" ScaleX="1" ScaleY="1" ox="-42" oy="-62" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1098" desc="Slimax_go_3">
+      <FMODULE mid="80" ScaleX="1" ScaleY="1" ox="-35" oy="-75" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="1099" desc="Slime_die_0">
+      <FMODULE mid="81" ScaleX="1" ScaleY="1" ox="-31" oy="-40" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109a" desc="Slime_die_1">
+      <FMODULE mid="82" ScaleX="1" ScaleY="1" ox="-37" oy="-44" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109b" desc="Slime_go_0">
+      <FMODULE mid="83" ScaleX="1" ScaleY="1" ox="-19" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109c" desc="Slime_go_1">
+      <FMODULE mid="84" ScaleX="1" ScaleY="1" ox="-21" oy="-44" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109d" desc="Slime_go_2">
+      <FMODULE mid="85" ScaleX="1" ScaleY="1" ox="-29" oy="-32" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109e" desc="Slimeed_die_0">
+      <FMODULE mid="86" ScaleX="1" ScaleY="1" ox="-31" oy="-53" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="109f" desc="Slimeed_die_1">
+      <FMODULE mid="87" ScaleX="1" ScaleY="1" ox="-37" oy="-57" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a0" desc="Slimeed_go_0">
+      <FMODULE mid="88" ScaleX="1" ScaleY="1" ox="-29" oy="-45" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a1" desc="Slimeed_go_1">
+      <FMODULE mid="89" ScaleX="1" ScaleY="1" ox="-25" oy="-62" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a2" desc="Slimeed_go_2">
+      <FMODULE mid="8a" ScaleX="1" ScaleY="1" ox="-28" oy="-71" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a3" desc="Slimeed_go_3">
+      <FMODULE mid="8b" ScaleX="1" ScaleY="1" ox="-19" oy="-79" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a4" desc="Slimeed_go_4">
+      <FMODULE mid="8c" ScaleX="1" ScaleY="1" ox="-22" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a5" desc="Slimeed_go_5">
+      <FMODULE mid="8d" ScaleX="1" ScaleY="1" ox="-20" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a6" desc="Snowball_die_0">
+      <FMODULE mid="8e" ScaleX="1" ScaleY="1" ox="-36" oy="-57" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a7" desc="Snowball_die_1">
+      <FMODULE mid="8f" ScaleX="1" ScaleY="1" ox="-37" oy="-53" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a8" desc="Snowball_go_0">
+      <FMODULE mid="90" ScaleX="1" ScaleY="1" ox="-42" oy="-43" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10a9" desc="Snowball_go_1">
+      <FMODULE mid="91" ScaleX="1" ScaleY="1" ox="-41" oy="-48" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10aa" desc="Snowball_go_2">
+      <FMODULE mid="92" ScaleX="1" ScaleY="1" ox="-40" oy="-46" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10ab" desc="Strike_single_0">
+      <FMODULE mid="93" ScaleX="1" ScaleY="1" ox="-54" oy="-105" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10ac" desc="VampireBat_die_0">
+      <FMODULE mid="94" ScaleX="1" ScaleY="1" ox="-32" oy="-58" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10ad" desc="VampireBat_die_1">
+      <FMODULE mid="95" ScaleX="1" ScaleY="1" ox="-39" oy="-67" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10ae" desc="VampireBat_go_0">
+      <FMODULE mid="96" ScaleX="1" ScaleY="1" ox="-25" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10af" desc="VampireBat_go_1">
+      <FMODULE mid="97" ScaleX="1" ScaleY="1" ox="-24" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b0" desc="VampireBat_go_2">
+      <FMODULE mid="98" ScaleX="1" ScaleY="1" ox="-20" oy="-53" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b1" desc="VampireBat_go_3">
+      <FMODULE mid="97" ScaleX="1" ScaleY="1" ox="-24" oy="-51" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b2" desc="VampireBat_skill_0">
+      <FMODULE mid="99" ScaleX="1" ScaleY="1" ox="-37" oy="-63" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b3" desc="VampireBat_skill_1">
+      <FMODULE mid="9a" ScaleX="1" ScaleY="1" ox="-38" oy="-71" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b4" desc="VampireBat_skill_2">
+      <FMODULE mid="9b" ScaleX="1" ScaleY="1" ox="-39" oy="-65" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b5" desc="VampireBat_skill_3">
+      <FMODULE mid="9c" ScaleX="1" ScaleY="1" ox="-26" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b6" desc="VampireBat_skill_4">
+      <FMODULE mid="9d" ScaleX="1" ScaleY="1" ox="-25" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b7" desc="VampireBat_skill_5">
+      <FMODULE mid="9e" ScaleX="1" ScaleY="1" ox="-25" oy="-49" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b8" desc="Vivi_Casting_0">
+      <FMODULE mid="9f" ScaleX="1" ScaleY="1" ox="-37" oy="-62" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10b9" desc="Vivi_Casting_1">
+      <FMODULE mid="9f" ScaleX="1" ScaleY="1" ox="-37" oy="-62" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10ba" desc="Vivi_Casting_2">
+      <FMODULE mid="a0" ScaleX="1" ScaleY="1" ox="-37" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10bb" desc="Vivi_Casting_3">
+      <FMODULE mid="a0" ScaleX="1" ScaleY="1" ox="-37" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10bc" desc="Vivi_Casting_4">
+      <FMODULE mid="a0" ScaleX="1" ScaleY="1" ox="-37" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10bd" desc="Vivi_Casting_5">
+      <FMODULE mid="a0" ScaleX="1" ScaleY="1" ox="-37" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10be" desc="Vivi_die_0">
+      <FMODULE mid="a1" ScaleX="1" ScaleY="1" ox="-37" oy="-79" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10bf" desc="Vivi_die_1">
+      <FMODULE mid="a2" ScaleX="1" ScaleY="1" ox="-36" oy="-89" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c0" desc="Vivi_die_2">
+      <FMODULE mid="a3" ScaleX="1" ScaleY="1" ox="-32" oy="-92" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c1" desc="Vivi_go_0">
+      <FMODULE mid="a4" ScaleX="1" ScaleY="1" ox="-37" oy="-60" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c2" desc="Vivi_go_1">
+      <FMODULE mid="a5" ScaleX="1" ScaleY="1" ox="-41" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c3" desc="Vivi_go_2">
+      <FMODULE mid="a6" ScaleX="1" ScaleY="1" ox="-44" oy="-59" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c4" desc="Wolf_die_0">
+      <FMODULE mid="a7" ScaleX="1" ScaleY="1" ox="-32" oy="-61" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c5" desc="Wolf_die_1">
+      <FMODULE mid="a8" ScaleX="1" ScaleY="1" ox="-39" oy="-38" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c6" desc="Wolf_go_0">
+      <FMODULE mid="a9" ScaleX="1" ScaleY="1" ox="-31" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c7" desc="Wolf_go_1">
+      <FMODULE mid="aa" ScaleX="1" ScaleY="1" ox="-32" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c8" desc="Wolf_go_2">
+      <FMODULE mid="ab" ScaleX="1" ScaleY="1" ox="-31" oy="-56" alpha="255" flags="0" />
+    </FRAME>
+    <FRAME id="10c9" desc="Wolf_go_3">
+      <FMODULE mid="aa" ScaleX="1" ScaleY="1" ox="-32" oy="-54" alpha="255" flags="0" />
+    </FRAME>
+  </FRAMES>
+  <ANIMATIONS>
+    <ANIMATION id="2001" desc="ArWolf_die">
+      <AFRAME fid="1000" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1001" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2002" desc="ArWolf_go">
+      <AFRAME fid="1002" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1003" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1004" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1005" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2003" desc="Bat_die">
+      <AFRAME fid="1006" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1007" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2004" desc="Bat_go">
+      <AFRAME fid="1008" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1009" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100b" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2005" desc="BBat_die">
+      <AFRAME fid="100c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100d" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2006" desc="BBat_go">
+      <AFRAME fid="100e" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="100f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1010" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1011" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2007" desc="Bomb_bomb">
+      <AFRAME fid="1012" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2008" desc="BuffIcon_StoutShield">
+      <AFRAME fid="1013" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2009" desc="Bull_die">
+      <AFRAME fid="1014" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1015" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200a" desc="Bull_go">
+      <AFRAME fid="1016" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1017" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1018" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1019" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200b" desc="CWolf_die">
+      <AFRAME fid="101a" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101b" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101d" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="101e" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200c" desc="CWolf_go">
+      <AFRAME fid="101f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1020" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1021" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1022" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200d" desc="DarkDoor_Die">
+      <AFRAME fid="1023" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200e" desc="DarkDoor_Idle">
+      <AFRAME fid="1024" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="200f" desc="DemonEye_die">
+      <AFRAME fid="1025" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1026" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1027" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2010" desc="DemonEye_go">
+      <AFRAME fid="1028" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1029" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102a" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102b" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2011" desc="DemonEye_skill">
+      <AFRAME fid="102c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102d" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="102e" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2012" desc="DemonThug_die">
+      <AFRAME fid="102f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1030" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1031" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1032" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2013" desc="DemonThug_go">
+      <AFRAME fid="1033" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1034" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1035" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1036" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2014" desc="Flame_die">
+      <AFRAME fid="1037" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1038" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2015" desc="Flame_go">
+      <AFRAME fid="1039" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103a" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103b" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2016" desc="Flame_skill">
+      <AFRAME fid="103c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103d" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="103e" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2017" desc="FlameFighter_die">
+      <AFRAME fid="103f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1040" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2018" desc="FlameFighter_go">
+      <AFRAME fid="1041" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1042" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1043" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1044" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2019" desc="FlameFighter_skill">
+      <AFRAME fid="1045" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1046" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1047" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1048" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1049" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201a" desc="GhostWind_go">
+      <AFRAME fid="104a" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104b" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104c" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201b" desc="GlobalBomb_globalminibom">
+      <AFRAME fid="104d" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="104f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1050" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1051" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201c" desc="GoldenSheep_go">
+      <AFRAME fid="1052" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1053" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1054" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1055" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201d" desc="Imp_die">
+      <AFRAME fid="1056" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1057" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1058" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1059" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201e" desc="Imp_go">
+      <AFRAME fid="105a" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105b" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105c" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105d" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="201f" desc="LittleDemon_die">
+      <AFRAME fid="105e" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="105f" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1060" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1061" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2020" desc="LittleDemon_go">
+      <AFRAME fid="1062" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1063" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1064" time="1" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1065" time="1" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2021" desc="RedBull_die">
+      <AFRAME fid="1066" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1067" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2022" desc="RedBull_go">
+      <AFRAME fid="1068" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1069" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="106a" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="106b" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2023" desc="RoboTrain_die">
+      <AFRAME fid="106c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="106d" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="106e" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2024" desc="RoboTrain_go">
+      <AFRAME fid="106f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1070" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1071" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1072" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1073" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1074" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1075" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1076" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1077" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1078" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1079" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="107a" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2025" desc="RoboTrain_Smoke">
+      <AFRAME fid="107b" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="107c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="107d" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="107e" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="107f" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1080" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2026" desc="Rocket_roket">
+      <AFRAME fid="1081" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1082" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1083" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2027" desc="Rocket_smoke">
+      <AFRAME fid="1084" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2028" desc="SandKing_die">
+      <AFRAME fid="1085" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1086" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2029" desc="SandKing_go">
+      <AFRAME fid="1087" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1088" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1089" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="108a" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202a" desc="Sheep_go">
+      <AFRAME fid="108b" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="108c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="108d" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202b" desc="Slima_die">
+      <AFRAME fid="108e" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="108f" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202c" desc="Slima_go">
+      <AFRAME fid="1090" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1091" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1092" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202d" desc="Slimax_die">
+      <AFRAME fid="1093" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1094" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202e" desc="Slimax_go">
+      <AFRAME fid="1095" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1096" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1097" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="1098" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="202f" desc="Slime_die">
+      <AFRAME fid="1099" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="109a" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2030" desc="Slime_go">
+      <AFRAME fid="109b" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="109c" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="109d" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2031" desc="Slimeed_die">
+      <AFRAME fid="109e" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="109f" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2032" desc="Slimeed_go">
+      <AFRAME fid="10a0" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a1" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a2" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a3" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a4" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a5" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2033" desc="Snowball_die">
+      <AFRAME fid="10a6" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a7" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2034" desc="Snowball_go">
+      <AFRAME fid="10a8" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10a9" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10aa" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2035" desc="Strike_single">
+      <AFRAME fid="10ab" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2036" desc="VampireBat_die">
+      <AFRAME fid="10ac" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10ad" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2037" desc="VampireBat_go">
+      <AFRAME fid="10ae" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10af" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b0" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b1" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2038" desc="VampireBat_skill">
+      <AFRAME fid="10b2" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b3" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b4" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b5" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b6" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b7" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="2039" desc="Vivi_Casting">
+      <AFRAME fid="10b8" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10b9" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10ba" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10bb" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10bc" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10bd" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="203a" desc="Vivi_die">
+      <AFRAME fid="10be" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10bf" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c0" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="203b" desc="Vivi_go">
+      <AFRAME fid="10c1" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c2" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c3" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="203c" desc="Wolf_die">
+      <AFRAME fid="10c4" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c5" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+    <ANIMATION id="203d" desc="Wolf_go">
+      <AFRAME fid="10c6" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c7" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c8" time="2" ox="0" oy="0" flags="0" />
+      <AFRAME fid="10c9" time="2" ox="0" oy="0" flags="0" />
+    </ANIMATION>
+  </ANIMATIONS>
+</SPRITE>

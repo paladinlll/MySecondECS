@@ -10,6 +10,7 @@ Shader "Custom/InstancedShader"
     {
         Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
         LOD 100
+        ZTest Always
         Blend SrcAlpha OneMinusSrcAlpha
 
         Pass

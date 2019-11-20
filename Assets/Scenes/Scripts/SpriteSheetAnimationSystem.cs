@@ -44,7 +44,7 @@ public class SpriteSheetAnimationSystem : JobComponentSystem {
 
                 float3 position = translation.Value;
                 position.z = position.y * 0.1f;
-                spriteSheetAnimationComponent.sortingOrder = -position.z;
+                spriteSheetAnimationComponent.sortingOrder = 2000 * spriteSheetAnimationComponent.sheetMaterialId - position.z;
                 //position.x += frame.ox + module.w / 2;
                 //position.y -= frame.oy - module.h / 2;
 
