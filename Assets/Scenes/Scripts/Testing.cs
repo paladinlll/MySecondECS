@@ -6,8 +6,32 @@ using Unity.Transforms;
 using Unity.Collections;
 using Unity.Rendering;
 using Unity.Mathematics;
+using CodeMonkey.MonoBehaviours;
+
+public struct Unit : IComponentData { }
+public struct Target : IComponentData { }
+
+public struct HasTarget : IComponentData {
+    public Entity targetEntity;
+}
+
+public class HasTargetDebug : ComponentSystem {
+
+    protected override void OnUpdate() {
+        Entities.ForEach((Entity entity, ref Translation translation, ref HasTarget hasTarget) => {
+            if (World.Active.EntityManager.Exists(hasTarget.targetEntity)) {
+                Translation targetTranslation = World.Active.EntityManager.GetComponentData<Translation>(hasTarget.targetEntity);
+                Debug.DrawLine(translation.Value, targetTranslation.Value);
+            }
+        });
+    }
+
+}
+
 
 public class Testing : MonoBehaviour {
+    public const float yMin = -4.5f;
+    public const float yMax = 4.5f;
     static Testing _instance;
     public static Testing Instance {
         get {
@@ -17,11 +41,43 @@ public class Testing : MonoBehaviour {
     [SerializeField] Mesh _mesh;
     public Mesh mesh { get { return _mesh; } }
 
+    [SerializeField] private CameraFollow cameraFollow;
+
+    [SerializeField] private bool _useQuadrantSystem;
+    public bool useQuadrantSystem { get { return _useQuadrantSystem; } }
+
+    [SerializeField] private bool _sortSprite;
+    public bool sortSprite { get { return _sortSprite; } }
+
+    private Vector3 cameraFollowPosition;
+    private float cameraFollowZoom;
     //[SerializeField] Material _material;
     //public Material material { get { return _material; } }
 
     private void Awake() {
         _instance = this;
+    }
+
+    private void Update() {
+        HandleCamera();
+    }
+
+    private void HandleCamera() {
+        Vector3 moveDir = Vector3.zero;
+        if (Input.GetKey(KeyCode.W)) { moveDir.y = +1f; }
+        if (Input.GetKey(KeyCode.S)) { moveDir.y = -1f; }
+        if (Input.GetKey(KeyCode.A)) { moveDir.x = -1f; }
+        if (Input.GetKey(KeyCode.D)) { moveDir.x = +1f; }
+
+        moveDir = moveDir.normalized;
+        float cameraMoveSpeed = 50f;
+        cameraFollowPosition += moveDir * cameraMoveSpeed * Time.deltaTime;
+
+        float zoomSpeed = 200f;
+        if (Input.mouseScrollDelta.y > 0) cameraFollowZoom -= 1 * zoomSpeed * Time.deltaTime;
+        if (Input.mouseScrollDelta.y < 0) cameraFollowZoom += 1 * zoomSpeed * Time.deltaTime;
+
+        cameraFollowZoom = Mathf.Clamp(cameraFollowZoom, 4f, 40f);
     }
 
     private BlobAssetReference<SpriteSheetAnimation> LoadSpriteSheetData(string sheetName) {
@@ -81,59 +137,98 @@ public class Testing : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+        cameraFollowZoom = 15f;
+        cameraFollow.Setup(() => cameraFollowPosition, () => cameraFollowZoom, true, true);
+
         BlobAssetReference<SpriteSheetAnimation>[] blobAssets = new BlobAssetReference<SpriteSheetAnimation>[2];
         blobAssets[0] = LoadSpriteSheetData("hero_sophie_sheet");
         blobAssets[1] = LoadSpriteSheetData("enemy_global_sheet");
 
         EntityManager entityManager = World.Active.EntityManager;
 
-        EntityArchetype entityArchetype = entityManager.CreateArchetype(
-            typeof(Translation),
-            //typeof(RenderMesh),
-            typeof(SpriteSheetAnimationComponent),
-            typeof(LocalToWorld),
-            typeof(MoveSpeedComponent)
-        );
-
-        NativeArray<Entity> entities = new NativeArray<Entity>(2000, Allocator.Temp);
-        entityManager.CreateEntity(entityArchetype, entities);
-
-        
-        for(int i = 0;i < entities.Length;i++) {
-            Entity entity = entities[i];
-            entityManager.SetComponentData(entity,
-                new MoveSpeedComponent {
-                    moveSpeed = 0//UnityEngine.Random.Range(1f, 2f)
-                }
-            );
-            entityManager.SetComponentData(entity,
-                new Translation {
-                    Value = new float3(UnityEngine.Random.Range(-8f, 8f), UnityEngine.Random.Range(-4.5f, 4.5f), 0)
-                }
+        {
+            EntityArchetype unitArchetype = entityManager.CreateArchetype(
+                typeof(Translation),
+                typeof(SpriteSheetAnimationComponent),
+                typeof(LocalToWorld),
+                typeof(MoveSpeedComponent),
+                typeof(Unit)
             );
 
-            var sheetId = UnityEngine.Random.Range(0, 2);
-            var clipBlob = blobAssets[sheetId];
-            int animationId = UnityEngine.Random.Range(0, clipBlob.Value.animations.Length);
-            var anim = clipBlob.Value.animations[animationId];
-            entityManager.SetComponentData(entity,
-                new SpriteSheetAnimationComponent {
-                    sheetMaterialId = sheetId,
-                    spriteSheet = clipBlob,
-                    animationId = animationId,
-                    currentFrame = UnityEngine.Random.Range(0, anim.totalFrame),
-                    frameTimer = 0,
-                    frameTimeMax = 0.1f
+            NativeArray<Entity> entities = new NativeArray<Entity>(500, Allocator.Temp);
+            entityManager.CreateEntity(unitArchetype, entities);
+
+            for (int i = 0;i < entities.Length;i++) {
+                Entity entity = entities[i];
+                entityManager.SetComponentData(entity,
+                    new MoveSpeedComponent {
+                        moveSpeed = 0//UnityEngine.Random.Range(1f, 2f)
                 }
-            );
+                );
+                entityManager.SetComponentData(entity,
+                    new Translation {
+                        Value = new float3(UnityEngine.Random.Range(-8f, 8f) * 5, UnityEngine.Random.Range(yMin, yMax) * 5, 0)
+                    }
+                );
+
+                var sheetId = 0;
+                var clipBlob = blobAssets[sheetId];
+                int animationId = UnityEngine.Random.Range(0, clipBlob.Value.animations.Length);
+                var anim = clipBlob.Value.animations[animationId];
+                entityManager.SetComponentData(entity,
+                    new SpriteSheetAnimationComponent {
+                        sheetMaterialId = sheetId,
+                        spriteSheet = clipBlob,
+                        animationId = animationId,
+                        currentFrame = UnityEngine.Random.Range(0, anim.totalFrame),
+                        frameTimer = 0,
+                        frameTimeMax = 0.1f
+                    }
+                );
+            }
+            entities.Dispose();
         }
 
+        {
+            EntityArchetype targetArchetype = entityManager.CreateArchetype(
+                typeof(Translation),
+                typeof(SpriteSheetAnimationComponent),
+                typeof(LocalToWorld),
+                typeof(MoveSpeedComponent),
+                typeof(Target)
+            );
+            NativeArray<Entity> entities = new NativeArray<Entity>(3000, Allocator.Temp);
+            entityManager.CreateEntity(targetArchetype, entities);
 
-        entities.Dispose();
-    }
+            for (int i = 0;i < entities.Length;i++) {
+                Entity entity = entities[i];
+                entityManager.SetComponentData(entity,
+                    new MoveSpeedComponent {
+                        moveSpeed = 0//UnityEngine.Random.Range(1f, 2f)
+                    }
+                );
+                entityManager.SetComponentData(entity,
+                    new Translation {
+                        Value = new float3(UnityEngine.Random.Range(-8f, 8f) * 5, UnityEngine.Random.Range(yMin, yMax) * 5, 0)
+                    }
+                );
 
-    // Update is called once per frame
-    void Update() {
-
+                var sheetId = 1;
+                var clipBlob = blobAssets[sheetId];
+                int animationId = UnityEngine.Random.Range(0, clipBlob.Value.animations.Length);
+                var anim = clipBlob.Value.animations[animationId];
+                entityManager.SetComponentData(entity,
+                    new SpriteSheetAnimationComponent {
+                        sheetMaterialId = sheetId,
+                        spriteSheet = clipBlob,
+                        animationId = animationId,
+                        currentFrame = UnityEngine.Random.Range(0, anim.totalFrame),
+                        frameTimer = 0,
+                        frameTimeMax = 0.1f
+                    }
+                );
+            }
+            entities.Dispose();
+        }
     }
 }

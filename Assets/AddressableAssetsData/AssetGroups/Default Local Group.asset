@@ -15,13 +15,12 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: e56185c9eaa3d4856b29a2023b14e75b
+  m_GUID: 388c0486a91e44db2a8f904e8531e52c
   m_SerializeEntries:
   - m_GUID: 0694100ee46518049b05626a7c2b5c0a
     m_Address: sheet_0
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - default
+    m_SerializedLabels: []
   - m_GUID: f2932629da6614033896a482b80270df
     m_Address: sheet_1
     m_ReadOnly: 0
@@ -30,5 +29,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 5d6d89329e5a94b56a44c5532f7fcfd8, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 9a8c6f75c5d2a4dbf8e5480a0a3e6cf4, type: 2}
-    - {fileID: 11400000, guid: 932fbc4cc121e414e995e22cd83fb6d5, type: 2}
+    - {fileID: 11400000, guid: 6d6722b56dc8242fc993d8dc6159605b, type: 2}
+    - {fileID: 11400000, guid: 73387675e59514500b4d26227e34e27e, type: 2}

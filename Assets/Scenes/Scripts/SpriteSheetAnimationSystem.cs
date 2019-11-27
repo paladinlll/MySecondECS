@@ -44,14 +44,14 @@ public class SpriteSheetAnimationSystem : JobComponentSystem {
 
                 float3 position = translation.Value;
                 position.z = position.y * 0.1f;
-                spriteSheetAnimationComponent.sortingOrder = 2000 * spriteSheetAnimationComponent.sheetMaterialId - position.z;
+                spriteSheetAnimationComponent.sortingOrder = /*2000 * spriteSheetAnimationComponent.sheetMaterialId*/ -position.y;
                 //position.x += frame.ox + module.w / 2;
                 //position.y -= frame.oy - module.h / 2;
+                float scaleFactor = 8;
+                float3 scale = new float3(scaleFactor * module.w, scaleFactor * module.h, 1);
 
-                float3 scale = new float3(10 * module.w, 10 * module.h, 1);
-
-                position.x -= -10 * frame.ox - scale.x / 2;
-                position.y += -10 * frame.oy - scale.y / 2;
+                position.x -= -scaleFactor * frame.ox - scale.x / 2;
+                position.y += -scaleFactor * frame.oy - scale.y / 2;
                 spriteSheetAnimationComponent.matrix = Matrix4x4.TRS(position, Quaternion.identity, scale);
             }
             // Implement the work to perform for each entity here.
