@@ -10,12 +10,12 @@ using static Unity.Mathematics.math;
 public class UnitMoveToTargetSystem : ComponentSystem {
     protected override void OnUpdate() {
         Entities.ForEach((Entity unitEntity, ref HasTarget hasTarget, ref Translation translation) => {
-            if (World.Active.EntityManager.Exists(hasTarget.targetEntity)) {
-                Translation targetTranslation = World.Active.EntityManager.GetComponentData<Translation>(hasTarget.targetEntity);
+            if (World.DefaultGameObjectInjectionWorld.EntityManager.Exists(hasTarget.targetEntity)) {
+                Translation targetTranslation = World.DefaultGameObjectInjectionWorld.EntityManager.GetComponentData<Translation>(hasTarget.targetEntity);
 
                 float3 targetDir = math.normalize(targetTranslation.Value - translation.Value);
-                float moveSpeed = 0.0f;
-                translation.Value += targetDir * moveSpeed * Time.deltaTime;
+                float moveSpeed = 0.5f;
+                translation.Value += targetDir * moveSpeed * Time.DeltaTime;
 
                 if (math.distance(translation.Value, targetTranslation.Value) < .2f) {
                     // Close to target, destroy it

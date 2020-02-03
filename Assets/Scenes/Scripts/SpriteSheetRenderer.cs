@@ -136,7 +136,7 @@ public class SpriteSheetRenderer : ComponentSystem {
         public void Execute() {
             for (int i = 0;i < sortArray.Length - 1;i++) {
                 for (int j = sortArray.Length - 1;j > i;j--) {
-                    if ((sortArray[i].sheetMaterialId * 1000 +  sortArray[i].sortingOrder)> (sortArray[j].sheetMaterialId * 1000 + sortArray[j].sortingOrder)) {
+                    if ((sortArray[i].sortingOrder)> ( sortArray[j].sortingOrder)) {
                         SpriteSheetAnimationComponent tmp = sortArray[i];
                         sortArray[i] = sortArray[j];
                         sortArray[j] = tmp;
@@ -152,6 +152,7 @@ public class SpriteSheetRenderer : ComponentSystem {
         bool useQuadrantSystem = Testing.Instance.useQuadrantSystem;
         bool sortSprite = Testing.Instance.sortSprite;
         if (useQuadrantSystem) {
+            #region useQuadrantSystem
             NativeQueue<SpriteSheetAnimationComponent> node0NativeQueue = new NativeQueue<SpriteSheetAnimationComponent>(Allocator.TempJob);
             NativeQueue<SpriteSheetAnimationComponent> node1NativeQueue = new NativeQueue<SpriteSheetAnimationComponent>(Allocator.TempJob);
             NativeQueue<SpriteSheetAnimationComponent> node2NativeQueue = new NativeQueue<SpriteSheetAnimationComponent>(Allocator.TempJob);
@@ -254,53 +255,54 @@ public class SpriteSheetRenderer : ComponentSystem {
             node7NativeQueue.Dispose();
             node8NativeQueue.Dispose();
 
-            SortLayerJob sortLayer0Job = new SortLayerJob {
-                sortArray = node0NativeArray
-            };
-            jobHandleArray[0] = sortLayer0Job.Schedule();
+            if (sortSprite) {
+                SortLayerJob sortLayer0Job = new SortLayerJob {
+                    sortArray = node0NativeArray
+                };
+                jobHandleArray[0] = sortLayer0Job.Schedule();
 
-            SortLayerJob sortLayer1Job = new SortLayerJob {
-                sortArray = node1NativeArray
-            };
-            jobHandleArray[1] = sortLayer1Job.Schedule();
+                SortLayerJob sortLayer1Job = new SortLayerJob {
+                    sortArray = node1NativeArray
+                };
+                jobHandleArray[1] = sortLayer1Job.Schedule();
 
-            SortLayerJob sortLayer2Job = new SortLayerJob {
-                sortArray = node2NativeArray
-            };
-            jobHandleArray[2] = sortLayer2Job.Schedule();
+                SortLayerJob sortLayer2Job = new SortLayerJob {
+                    sortArray = node2NativeArray
+                };
+                jobHandleArray[2] = sortLayer2Job.Schedule();
 
-            SortLayerJob sortLayer3Job = new SortLayerJob {
-                sortArray = node3NativeArray
-            };
-            jobHandleArray[3] = sortLayer3Job.Schedule();
+                SortLayerJob sortLayer3Job = new SortLayerJob {
+                    sortArray = node3NativeArray
+                };
+                jobHandleArray[3] = sortLayer3Job.Schedule();
 
-            SortLayerJob sortLayer4Job = new SortLayerJob {
-                sortArray = node4NativeArray
-            };
-            jobHandleArray[4] = sortLayer4Job.Schedule();
+                SortLayerJob sortLayer4Job = new SortLayerJob {
+                    sortArray = node4NativeArray
+                };
+                jobHandleArray[4] = sortLayer4Job.Schedule();
 
-            SortLayerJob sortLayer5Job = new SortLayerJob {
-                sortArray = node5NativeArray
-            };
-            jobHandleArray[5] = sortLayer5Job.Schedule();
+                SortLayerJob sortLayer5Job = new SortLayerJob {
+                    sortArray = node5NativeArray
+                };
+                jobHandleArray[5] = sortLayer5Job.Schedule();
 
-            SortLayerJob sortLayer6Job = new SortLayerJob {
-                sortArray = node6NativeArray
-            };
-            jobHandleArray[6] = sortLayer6Job.Schedule();
+                SortLayerJob sortLayer6Job = new SortLayerJob {
+                    sortArray = node6NativeArray
+                };
+                jobHandleArray[6] = sortLayer6Job.Schedule();
 
-            SortLayerJob sortLayer7Job = new SortLayerJob {
-                sortArray = node7NativeArray
-            };
-            jobHandleArray[7] = sortLayer7Job.Schedule();
+                SortLayerJob sortLayer7Job = new SortLayerJob {
+                    sortArray = node7NativeArray
+                };
+                jobHandleArray[7] = sortLayer7Job.Schedule();
 
-            SortLayerJob sortLayer8Job = new SortLayerJob {
-                sortArray = node8NativeArray
-            };
-            jobHandleArray[8] = sortLayer8Job.Schedule();
+                SortLayerJob sortLayer8Job = new SortLayerJob {
+                    sortArray = node8NativeArray
+                };
+                jobHandleArray[8] = sortLayer8Job.Schedule();
 
-            JobHandle.CompleteAll(jobHandleArray);
-
+                JobHandle.CompleteAll(jobHandleArray);
+            }
             int visibleTileTotal = node0NativeArray.Length +
                 node1NativeArray.Length +
                 node2NativeArray.Length +
@@ -452,7 +454,7 @@ public class SpriteSheetRenderer : ComponentSystem {
             node7NativeArray.Dispose();
             node8NativeArray.Dispose();
             jobHandleArray.Dispose();
-
+            #endregion
         } else {
             NativeQueue<SpriteSheetAnimationComponent> sheet0NativeQueue = new NativeQueue<SpriteSheetAnimationComponent>(Allocator.TempJob);
             CopySpriteJob copyTileJob = new CopySpriteJob {
@@ -507,10 +509,6 @@ public class SpriteSheetRenderer : ComponentSystem {
                     }
                     sliceSize++;
                 }
-                //int sliceSize = math.min(visibleTileTotal - off, sliceCount);
-                //if(off < sheet0NativeArray.Length && off + sliceSize >= sheet0NativeArray.Length) {
-                //    sliceSize = sheet0NativeArray.Length - off;
-                //}
                 NativeArray<Matrix4x4>.Copy(matrixArray, off, matrixInstanceArray, 0, sliceSize);
                 NativeArray<Vector4>.Copy(uvArray, off, uvInstanceArray, 0, sliceSize);
 
